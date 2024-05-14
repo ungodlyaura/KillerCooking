@@ -28,6 +28,10 @@
 				"Mac",
 				"Linux"
 			]
+		},
+		{
+			"Name": "GPULightmass",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
