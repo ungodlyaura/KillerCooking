@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "RatKitchen_WwiseProject",
+   "GUID": "{A3067D58-E18A-4893-B7DD-ED3E0F35DBA2}",
+   "Generator": "2023.1.7.8574"
+  },
+  "CacheRoot": "../.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{65BC3C9A-2AC0-4E93-922D-F04B59E1E0EA}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{90465EAF-2508-4CD7-A431-1C2AA3D1FF86}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{AA738660-DA39-4245-854D-CA95A1F1E27D}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{6654BFD9-AFC0-2D6C-733C-3C1A154239BB}"
+ }
+}
