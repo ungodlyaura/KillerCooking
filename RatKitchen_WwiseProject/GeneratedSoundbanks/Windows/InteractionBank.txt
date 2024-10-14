@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1443769416	Chopping_Board			\Default Work Unit\Item Interaction\Chopping_Board	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	75838021	ChoppingBoard	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\ChoppingBoard_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\ChoppingBoard		151344
+

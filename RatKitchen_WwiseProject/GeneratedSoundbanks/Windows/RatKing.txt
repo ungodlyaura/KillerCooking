@@ -1,3 +1,0 @@
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	262052402	WaterPumpSFX	C:\Users\Dylan C\Documents\WwiseProjects\Rat King Killer Cooking\.cache\Windows\SFX\WaterPump_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\WaterPump\WaterPumpSFX		67476
-

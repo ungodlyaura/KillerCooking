@@ -50,8 +50,60 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
     ]
+   },
+   {
+    "Id": "1500889205",
+    "Type": "User",
+    "GUID": "{179767C9-9EE8-46ED-808F-4EA9E6BBF361}",
+    "Language": "SFX",
+    "Hash": "{F0FF9C0A-6E40-509B-1C13-0CB50E33D596}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\RatKing\\InteractionBank",
+    "ShortName": "InteractionBank",
+    "Path": "InteractionBank.bnk",
+    "Media": [
+     {
+      "Id": "75838021",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ChoppingBoard.wav",
+      "CachePath": "SFX/ChoppingBoard_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1443769416",
+      "Name": "Chopping_Board",
+      "ObjectPath": "\\Events\\Default Work Unit\\Item Interaction\\Chopping_Board",
+      "GUID": "{F03CD971-5B00-4A50-87B0-129DCA8F9B25}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7142857",
+      "DurationMax": "1.7142857",
+      "MediaRefs": [
+       {
+        "Id": "75838021"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "2355431159",
+        "Name": "ChoppingBoard",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\ChoppingBoard",
+        "GUID": "{0F37C1D1-2773-4D96-A1CD-5BDA09951E40}"
+       }
+      ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "2355431159",
+      "Name": "ChoppingBoard",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\ChoppingBoard",
+      "GUID": "{0F37C1D1-2773-4D96-A1CD-5BDA09951E40}"
+     }
+    ]
    }
   ],
-  "FileHash": "{D7B7792F-448B-7B41-B0AD-6295BB7661FC}"
+  "FileHash": "{2E966692-14FC-4DEB-5B7A-E60B368E6EFA}"
  }
 }
