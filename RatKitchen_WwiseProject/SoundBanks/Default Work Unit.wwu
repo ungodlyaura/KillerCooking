@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{624BA322-9401-4365-A997-E9DFBE08585B}" SchemaVersion="119">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{624BA322-9401-4365-A997-E9DFBE08585B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{624BA322-9401-4365-A997-E9DFBE08585B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="RatKing" ID="{475609CC-8BD7-44CB-9FE9-B7C887C8C844}" ShortID="611891796">
+					<ChildrenList>
+						<SoundBank Name="InteractionBank" ID="{179767C9-9EE8-46ED-808F-4EA9E6BBF361}">
+							<ObjectInclusionList>
+								<ObjectRef Name="PutDown" ID="{25A6EC75-0B78-4185-96E4-5335B6EFD7F2}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="WaterBoiling" ID="{AF53364C-F7F7-4208-BF73-1EDAC21CB48F}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="ServeOrder" ID="{C913EE19-05FE-42BE-8D11-36AC7312072B}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="WaterPump" ID="{CEBD68B6-BB21-431C-99E4-583BC1EB6CDB}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="GrillFrying" ID="{60932ADA-B559-43CA-BF1D-0B2F99C4B7AF}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="WaterBoiling" ID="{0297777B-4BF0-440F-BD33-AECEE8EBD820}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="CustomerOrder" ID="{46B11D06-7193-441A-A8C8-54FEECCA77DF}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="ItemSwap" ID="{ED3E5A11-C458-4494-B494-271380A97D7C}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="PickUp" ID="{9FEBE981-74CC-449E-B62E-F519F77B7E81}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="ServeOrder" ID="{D42E9661-2DAD-44E0-A2F4-5FB04B9539F7}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="PickUp" ID="{8D21517D-694D-45BB-A6B5-6AD64BC2E21E}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="WaterPump" ID="{EFD2B791-00E4-474C-8D3E-2A40EF93934A}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="GrillFrying" ID="{851BBE55-608A-482E-8DE2-6A1C02A135C7}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="PutDown" ID="{09A8D996-89BA-492F-B761-318454BFE7B7}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="ChoppingBoard" ID="{700FCF18-84DC-4939-B2C7-014743C13680}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="CustomerOrder" ID="{E992C2CB-2E6C-49EC-A887-EC2B9CA4967F}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Chopping_Board" ID="{F03CD971-5B00-4A50-87B0-129DCA8F9B25}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="ItemSwap" ID="{D2A7F724-BAF8-4AE2-A3CF-7B2CA29B0CF1}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="OvenUse" ID="{A413ECA9-2C99-4CBF-9C27-E929CB8C8B68}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="OvenUse" ID="{F5AC902D-C3F6-4E6D-B07C-24E290DC7880}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

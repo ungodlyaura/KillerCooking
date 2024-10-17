@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3375E348-962A-446F-86FD-DA21B3DE62C2}" SchemaVersion="119">
 	<Triggers>
-		<WorkUnit Name="Default Work Unit" ID="{3375E348-962A-446F-86FD-DA21B3DE62C2}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3375E348-962A-446F-86FD-DA21B3DE62C2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="ChoppingBoard" ID="{0F37C1D1-2773-4D96-A1CD-5BDA09951E40}"/>
+				<Trigger Name="CustomerOrder" ID="{82726AA2-C771-4B69-BC87-B8375D02AC4E}"/>
+				<Trigger Name="GrillFrying" ID="{EBDF71C2-DCA2-4C53-A0E5-9941A0AC5747}"/>
+				<Trigger Name="ItemSwap" ID="{EE5B6476-8276-4BD6-AC1C-4B40D9DD5E99}"/>
+				<Trigger Name="OvenUse" ID="{F9624F94-A19E-4EDF-8D06-D26B8B2C1137}"/>
+				<Trigger Name="PickUp" ID="{C4E69AA9-9D54-48A5-A9EC-4E607884CB3E}"/>
+				<Trigger Name="PutDown" ID="{CC69D165-094D-42D3-B3E9-AB483F10A2C0}"/>
+				<Trigger Name="ServeOrder" ID="{43814311-8A02-47C2-86F6-7B4E106296E6}"/>
+				<Trigger Name="WaterBoiling" ID="{6B11CB48-3B4D-4C5E-A9B5-232D25F8242C}"/>
+				<Trigger Name="WaterPump" ID="{8447C456-B2B5-4A55-A972-FB047ACF354C}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Triggers>
 </WwiseDocument>

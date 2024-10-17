@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Item Interaction" ID="{BDC773D8-F18C-4504-859D-1614D5F32C02}" ShortID="237479338">
+				<Folder Name="Interactions" ID="{BDC773D8-F18C-4504-859D-1614D5F32C02}" ShortID="237479338">
 					<ChildrenList>
 						<Sound Name="ChoppingBoard" ID="{700FCF18-84DC-4939-B2C7-014743C13680}" ShortID="976181929">
 							<ReferenceList>

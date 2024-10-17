@@ -1,6 +1,224 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Character" ID="{C22A3933-8F10-45D5-B502-FC230B79A391}" ShortID="840171431"/>
+				<Folder Name="Item Interaction" ID="{3F67150F-AB4A-4FF0-A42D-87FDA370F0A4}" ShortID="589837423">
+					<ChildrenList>
+						<Event Name="Chopping_Board" ID="{F03CD971-5B00-4A50-87B0-129DCA8F9B25}">
+							<ChildrenList>
+								<Action Name="" ID="{700DC866-39B5-45A3-BBE0-8808F26F086B}" ShortID="859842913">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ChoppingBoard" ID="{0F37C1D1-2773-4D96-A1CD-5BDA09951E40}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9467E384-1CAD-4D97-B09D-A0DBDA36D3C7}" ShortID="100000888">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ChoppingBoard" ID="{700FCF18-84DC-4939-B2C7-014743C13680}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CustomerOrder" ID="{46B11D06-7193-441A-A8C8-54FEECCA77DF}">
+							<ChildrenList>
+								<Action Name="" ID="{D3C2933D-2B4C-4720-900B-3F0918D8F05D}" ShortID="721684994">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CustomerOrder" ID="{82726AA2-C771-4B69-BC87-B8375D02AC4E}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DF8A7C0C-A604-485F-A1D1-029D4622624C}" ShortID="775917215">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CustomerOrder" ID="{E992C2CB-2E6C-49EC-A887-EC2B9CA4967F}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GrillFrying" ID="{60932ADA-B559-43CA-BF1D-0B2F99C4B7AF}">
+							<ChildrenList>
+								<Action Name="" ID="{5F7EA057-AC42-4842-B43F-BBF392697E78}" ShortID="642954108">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GrillFrying" ID="{EBDF71C2-DCA2-4C53-A0E5-9941A0AC5747}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B3EC35B4-DDE6-401F-89B7-80B24606F3E2}" ShortID="220961115">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GrillFrying" ID="{851BBE55-608A-482E-8DE2-6A1C02A135C7}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ItemSwap" ID="{ED3E5A11-C458-4494-B494-271380A97D7C}">
+							<ChildrenList>
+								<Action Name="" ID="{BF2E0117-ECFC-4E17-AB85-171C77BF525C}" ShortID="451741240">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ItemSwap" ID="{EE5B6476-8276-4BD6-AC1C-4B40D9DD5E99}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3E759C09-418F-4442-ABAD-2EA9B700467D}" ShortID="274924916">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ItemSwap" ID="{D2A7F724-BAF8-4AE2-A3CF-7B2CA29B0CF1}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="OvenUse" ID="{F5AC902D-C3F6-4E6D-B07C-24E290DC7880}">
+							<ChildrenList>
+								<Action Name="" ID="{F075DCE7-D362-44BB-BDA8-EDDA714BCCEF}" ShortID="830346511">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OvenUse" ID="{F9624F94-A19E-4EDF-8D06-D26B8B2C1137}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CCDA82C6-D6E4-499B-9EA3-734A09CCAD3F}" ShortID="734150414">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OvenUse" ID="{A413ECA9-2C99-4CBF-9C27-E929CB8C8B68}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PickUp" ID="{8D21517D-694D-45BB-A6B5-6AD64BC2E21E}">
+							<ChildrenList>
+								<Action Name="" ID="{95058573-3A0E-4048-9C8C-7A3D4C773478}" ShortID="239149955">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PickUp" ID="{C4E69AA9-9D54-48A5-A9EC-4E607884CB3E}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0147B87B-1CEB-4295-99F2-0684A046E2D8}" ShortID="167233970">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PickUp" ID="{9FEBE981-74CC-449E-B62E-F519F77B7E81}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PutDown" ID="{09A8D996-89BA-492F-B761-318454BFE7B7}">
+							<ChildrenList>
+								<Action Name="" ID="{B2A0C0EC-5F85-481E-8915-46AC6CB966A2}" ShortID="601631024">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PutDown" ID="{CC69D165-094D-42D3-B3E9-AB483F10A2C0}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F79E936D-CC1A-4633-96BB-519C2DD18517}" ShortID="29888222">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PutDown" ID="{25A6EC75-0B78-4185-96E4-5335B6EFD7F2}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ServeOrder" ID="{C913EE19-05FE-42BE-8D11-36AC7312072B}">
+							<ChildrenList>
+								<Action Name="" ID="{0796AFC4-4A81-41CE-B87D-652EE34B2BCC}" ShortID="142328621">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ServeOrder" ID="{43814311-8A02-47C2-86F6-7B4E106296E6}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3901F861-0D6D-48D7-816F-9778FBC3BF85}" ShortID="264214525">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ServeOrder" ID="{D42E9661-2DAD-44E0-A2F4-5FB04B9539F7}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="WaterBoiling" ID="{0297777B-4BF0-440F-BD33-AECEE8EBD820}">
+							<ChildrenList>
+								<Action Name="" ID="{ADDF3118-628C-4F7E-86EA-36F651C51B19}" ShortID="809707092">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WaterBoiling" ID="{6B11CB48-3B4D-4C5E-A9B5-232D25F8242C}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C2099A02-A272-48DC-95ED-C9D46A8093B5}" ShortID="610926379">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WaterBoiling" ID="{AF53364C-F7F7-4208-BF73-1EDAC21CB48F}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="WaterPump" ID="{EFD2B791-00E4-474C-8D3E-2A40EF93934A}">
+							<ChildrenList>
+								<Action Name="" ID="{DD672AC2-0BC6-475E-935B-CB5C4E141593}" ShortID="362264806">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WaterPump" ID="{8447C456-B2B5-4A55-A972-FB047ACF354C}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4DE82C5D-7080-408D-A33E-BE400CF54FE0}" ShortID="225032141">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WaterPump" ID="{CEBD68B6-BB21-431C-99E4-583BC1EB6CDB}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -56,11 +56,19 @@
     "Type": "User",
     "GUID": "{179767C9-9EE8-46ED-808F-4EA9E6BBF361}",
     "Language": "SFX",
-    "Hash": "{F0FF9C0A-6E40-509B-1C13-0CB50E33D596}",
+    "Hash": "{09494B21-1210-8E3E-AE24-416E9C81B8E3}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\RatKing\\InteractionBank",
     "ShortName": "InteractionBank",
     "Path": "InteractionBank.bnk",
     "Media": [
+     {
+      "Id": "8324815",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "OvenUse.wav",
+      "CachePath": "SFX/OvenUse_818F3B66.wem"
+     },
      {
       "Id": "75838021",
       "Language": "SFX",
@@ -68,6 +76,70 @@
       "Location": "Memory",
       "ShortName": "ChoppingBoard.wav",
       "CachePath": "SFX/ChoppingBoard_818F3B66.wem"
+     },
+     {
+      "Id": "228228570",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CustomerOrder.wav",
+      "CachePath": "SFX/CustomerOrder_818F3B66.wem"
+     },
+     {
+      "Id": "245379904",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ServeOrder.wav",
+      "CachePath": "SFX/ServeOrder_818F3B66.wem"
+     },
+     {
+      "Id": "487762977",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GrillFrying.wav",
+      "CachePath": "SFX/GrillFrying_818F3B66.wem"
+     },
+     {
+      "Id": "536125655",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WaterPump.wav",
+      "CachePath": "SFX/WaterPump_818F3B66.wem"
+     },
+     {
+      "Id": "599760259",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PutDown.wav",
+      "CachePath": "SFX/PutDown_818F3B66.wem"
+     },
+     {
+      "Id": "779982843",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PickUp.wav",
+      "CachePath": "SFX/PickUp_818F3B66.wem"
+     },
+     {
+      "Id": "856389188",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ItemSwap.wav",
+      "CachePath": "SFX/ItemSwap_818F3B66.wem"
+     },
+     {
+      "Id": "864447192",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WaterBoiling.wav",
+      "CachePath": "SFX/WaterBoiling_818F3B66.wem"
      }
     ],
     "Events": [
@@ -92,18 +164,270 @@
         "GUID": "{0F37C1D1-2773-4D96-A1CD-5BDA09951E40}"
        }
       ]
+     },
+     {
+      "Id": "2230847791",
+      "Name": "CustomerOrder",
+      "ObjectPath": "\\Events\\Default Work Unit\\Item Interaction\\CustomerOrder",
+      "GUID": "{46B11D06-7193-441A-A8C8-54FEECCA77DF}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.95088434",
+      "DurationMax": "0.95088434",
+      "MediaRefs": [
+       {
+        "Id": "228228570"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "2230847791",
+        "Name": "CustomerOrder",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\CustomerOrder",
+        "GUID": "{82726AA2-C771-4B69-BC87-B8375D02AC4E}"
+       }
+      ]
+     },
+     {
+      "Id": "3253139568",
+      "Name": "GrillFrying",
+      "ObjectPath": "\\Events\\Default Work Unit\\Item Interaction\\GrillFrying",
+      "GUID": "{60932ADA-B559-43CA-BF1D-0B2F99C4B7AF}",
+      "DurationType": "OneShot",
+      "DurationMin": "10.272313",
+      "DurationMax": "10.272313",
+      "MediaRefs": [
+       {
+        "Id": "487762977"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "3253139568",
+        "Name": "GrillFrying",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\GrillFrying",
+        "GUID": "{EBDF71C2-DCA2-4C53-A0E5-9941A0AC5747}"
+       }
+      ]
+     },
+     {
+      "Id": "2542736601",
+      "Name": "ItemSwap",
+      "ObjectPath": "\\Events\\Default Work Unit\\Item Interaction\\ItemSwap",
+      "GUID": "{ED3E5A11-C458-4494-B494-271380A97D7C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.67410433",
+      "DurationMax": "0.67410433",
+      "MediaRefs": [
+       {
+        "Id": "856389188"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "2542736601",
+        "Name": "ItemSwap",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\ItemSwap",
+        "GUID": "{EE5B6476-8276-4BD6-AC1C-4B40D9DD5E99}"
+       }
+      ]
+     },
+     {
+      "Id": "3333125560",
+      "Name": "OvenUse",
+      "ObjectPath": "\\Events\\Default Work Unit\\Item Interaction\\OvenUse",
+      "GUID": "{F5AC902D-C3F6-4E6D-B07C-24E290DC7880}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.6919727",
+      "DurationMax": "1.6919727",
+      "MediaRefs": [
+       {
+        "Id": "8324815"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "3333125560",
+        "Name": "OvenUse",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\OvenUse",
+        "GUID": "{F9624F94-A19E-4EDF-8D06-D26B8B2C1137}"
+       }
+      ]
+     },
+     {
+      "Id": "3978245845",
+      "Name": "PickUp",
+      "ObjectPath": "\\Events\\Default Work Unit\\Item Interaction\\PickUp",
+      "GUID": "{8D21517D-694D-45BB-A6B5-6AD64BC2E21E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.66072565",
+      "DurationMax": "0.66072565",
+      "MediaRefs": [
+       {
+        "Id": "779982843"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "3978245845",
+        "Name": "PickUp",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\PickUp",
+        "GUID": "{C4E69AA9-9D54-48A5-A9EC-4E607884CB3E}"
+       }
+      ]
+     },
+     {
+      "Id": "3496198064",
+      "Name": "PutDown",
+      "ObjectPath": "\\Events\\Default Work Unit\\Item Interaction\\PutDown",
+      "GUID": "{09A8D996-89BA-492F-B761-318454BFE7B7}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.85267574",
+      "DurationMax": "0.85267574",
+      "MediaRefs": [
+       {
+        "Id": "599760259"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "3496198064",
+        "Name": "PutDown",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\PutDown",
+        "GUID": "{CC69D165-094D-42D3-B3E9-AB483F10A2C0}"
+       }
+      ]
+     },
+     {
+      "Id": "1153444610",
+      "Name": "ServeOrder",
+      "ObjectPath": "\\Events\\Default Work Unit\\Item Interaction\\ServeOrder",
+      "GUID": "{C913EE19-05FE-42BE-8D11-36AC7312072B}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7589343",
+      "DurationMax": "1.7589343",
+      "MediaRefs": [
+       {
+        "Id": "245379904"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "1153444610",
+        "Name": "ServeOrder",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\ServeOrder",
+        "GUID": "{43814311-8A02-47C2-86F6-7B4E106296E6}"
+       }
+      ]
+     },
+     {
+      "Id": "2359483012",
+      "Name": "WaterBoiling",
+      "ObjectPath": "\\Events\\Default Work Unit\\Item Interaction\\WaterBoiling",
+      "GUID": "{0297777B-4BF0-440F-BD33-AECEE8EBD820}",
+      "DurationType": "OneShot",
+      "DurationMin": "30.308027",
+      "DurationMax": "30.308027",
+      "MediaRefs": [
+       {
+        "Id": "864447192"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "2359483012",
+        "Name": "WaterBoiling",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\WaterBoiling",
+        "GUID": "{6B11CB48-3B4D-4C5E-A9B5-232D25F8242C}"
+       }
+      ]
+     },
+     {
+      "Id": "3518748992",
+      "Name": "WaterPump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Item Interaction\\WaterPump",
+      "GUID": "{EFD2B791-00E4-474C-8D3E-2A40EF93934A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.7634014",
+      "DurationMax": "0.7634014",
+      "MediaRefs": [
+       {
+        "Id": "536125655"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "3518748992",
+        "Name": "WaterPump",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\WaterPump",
+        "GUID": "{8447C456-B2B5-4A55-A972-FB047ACF354C}"
+       }
+      ]
      }
     ],
     "Triggers": [
+     {
+      "Id": "1153444610",
+      "Name": "ServeOrder",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\ServeOrder",
+      "GUID": "{43814311-8A02-47C2-86F6-7B4E106296E6}"
+     },
+     {
+      "Id": "2230847791",
+      "Name": "CustomerOrder",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\CustomerOrder",
+      "GUID": "{82726AA2-C771-4B69-BC87-B8375D02AC4E}"
+     },
      {
       "Id": "2355431159",
       "Name": "ChoppingBoard",
       "ObjectPath": "\\Triggers\\Default Work Unit\\ChoppingBoard",
       "GUID": "{0F37C1D1-2773-4D96-A1CD-5BDA09951E40}"
+     },
+     {
+      "Id": "2359483012",
+      "Name": "WaterBoiling",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\WaterBoiling",
+      "GUID": "{6B11CB48-3B4D-4C5E-A9B5-232D25F8242C}"
+     },
+     {
+      "Id": "2542736601",
+      "Name": "ItemSwap",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\ItemSwap",
+      "GUID": "{EE5B6476-8276-4BD6-AC1C-4B40D9DD5E99}"
+     },
+     {
+      "Id": "3253139568",
+      "Name": "GrillFrying",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\GrillFrying",
+      "GUID": "{EBDF71C2-DCA2-4C53-A0E5-9941A0AC5747}"
+     },
+     {
+      "Id": "3333125560",
+      "Name": "OvenUse",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\OvenUse",
+      "GUID": "{F9624F94-A19E-4EDF-8D06-D26B8B2C1137}"
+     },
+     {
+      "Id": "3496198064",
+      "Name": "PutDown",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\PutDown",
+      "GUID": "{CC69D165-094D-42D3-B3E9-AB483F10A2C0}"
+     },
+     {
+      "Id": "3518748992",
+      "Name": "WaterPump",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\WaterPump",
+      "GUID": "{8447C456-B2B5-4A55-A972-FB047ACF354C}"
+     },
+     {
+      "Id": "3978245845",
+      "Name": "PickUp",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\PickUp",
+      "GUID": "{C4E69AA9-9D54-48A5-A9EC-4E607884CB3E}"
      }
     ]
    }
   ],
-  "FileHash": "{2E966692-14FC-4DEB-5B7A-E60B368E6EFA}"
+  "FileHash": "{C879EEB8-CAA4-8AE9-0651-38DB721D5CDF}"
  }
 }
