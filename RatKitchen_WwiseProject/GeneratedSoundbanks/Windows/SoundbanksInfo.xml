@@ -164,6 +164,121 @@
 				<Trigger Id="3978245845" Name="PickUp" ObjectPath="\Triggers\Default Work Unit\PickUp" GUID="{C4E69AA9-9D54-48A5-A9EC-4E607884CB3E}"/>
 			</Triggers>
 		</SoundBank>
+		<SoundBank Id="2143169776" Type="User" GUID="{2FE15407-3D39-4E38-944C-DAC8A0065380}" Language="SFX" Hash="{6D6995E2-6E93-AFAE-B9C1-7E7A725FF6CE}">
+			<ObjectPath>\SoundBanks\Default Work Unit\RatKing\CharacterBank</ObjectPath>
+			<ShortName>CharacterBank</ShortName>
+			<Path>CharacterBank.bnk</Path>
+			<Media>
+				<File Id="64296840" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlayerMovement.wav</ShortName>
+					<CachePath>SFX/PlayerMovement_818F3B66.wem</CachePath>
+				</File>
+				<File Id="132683153" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CustomerDeath.wav</ShortName>
+					<CachePath>SFX/CustomerDeath_818F3B66.wem</CachePath>
+				</File>
+				<File Id="133871800" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SlipFall.wav</ShortName>
+					<CachePath>SFX/SlipFall_818F3B66.wem</CachePath>
+				</File>
+				<File Id="388462631" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlayerDie.wav</ShortName>
+					<CachePath>SFX/PlayerDie_818F3B66.wem</CachePath>
+				</File>
+				<File Id="441972041" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GhostSpawn.wav</ShortName>
+					<CachePath>SFX/GhostSpawn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="988850082" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PlayerHurt.wav</ShortName>
+					<CachePath>SFX/PlayerHurt_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1002779129" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CustomerNoise.wav</ShortName>
+					<CachePath>SFX/CustomerNoise_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1015239044" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CustomerAnnoyed.wav</ShortName>
+					<CachePath>SFX/CustomerAnnoyed_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="626524337" Name="CustomerAnnoyed" ObjectPath="\Events\Default Work Unit\Character\CustomerAnnoyed" GUID="{33194C12-44F0-4D44-AAD6-E445B17FCD60}" DurationType="OneShot" DurationMin="0.9955329" DurationMax="0.9955329">
+					<MediaRefs>
+						<MediaRef Id="1015239044"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="626524337" Name="CustomerAnnoyed" ObjectPath="\Triggers\Default Work Unit\CustomerAnnoyed" GUID="{2A88DBAE-F26F-413A-8ED9-6DBEA25D098E}"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2713985429" Name="CustomerDeath" ObjectPath="\Events\Default Work Unit\Character\CustomerDeath" GUID="{82DD2280-5250-41F4-8EF4-2AFC8A819C07}" DurationType="OneShot" DurationMin="1.0446485" DurationMax="1.0446485">
+					<MediaRefs>
+						<MediaRef Id="132683153"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2713985429" Name="CustomerDeath" ObjectPath="\Triggers\Default Work Unit\CustomerDeath" GUID="{105F1459-7E87-4C01-9527-A98CE4673174}"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2293307949" Name="CustomerNoise" ObjectPath="\Events\Default Work Unit\Character\CustomerNoise" GUID="{1AAD57E2-4D9E-4264-B609-EB1AAF25C77D}" DurationType="OneShot" DurationMin="0.8080272" DurationMax="0.8080272">
+					<MediaRefs>
+						<MediaRef Id="1002779129"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2293307949" Name="CustomerNoise" ObjectPath="\Triggers\Default Work Unit\CustomerNoise" GUID="{F86C2D47-16B5-44E9-9B8F-AD6CAFB358AA}"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="3845527995" Name="GhostSpawn" ObjectPath="\Events\Default Work Unit\Character\GhostSpawn" GUID="{383B7353-F3E7-4481-9A91-E220684B8C4D}" DurationType="OneShot" DurationMin="2.357143" DurationMax="2.357143">
+					<MediaRefs>
+						<MediaRef Id="441972041"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="3845527995" Name="GhostSpawn" ObjectPath="\Triggers\Default Work Unit\GhostSpawn" GUID="{AB49E207-A0A7-46E6-B2DE-1CBD3D8DDE39}"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="3966601280" Name="PlayerDie" ObjectPath="\Events\Default Work Unit\Character\PlayerDie" GUID="{FD256E16-D2DF-4957-BDDC-E5425F104D14}" DurationType="OneShot" DurationMin="1.2812471" DurationMax="1.2812471">
+					<MediaRefs>
+						<MediaRef Id="388462631"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="3966601280" Name="PlayerDie" ObjectPath="\Triggers\Default Work Unit\PlayerDie" GUID="{73CD7BB7-B8C0-4B83-BC03-430B52E9E4D2}"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="3537581393" Name="PlayerHurt" ObjectPath="\Events\Default Work Unit\Character\PlayerHurt" GUID="{EAD76C21-A6FE-4EA2-B9F4-84C3F9F6F837}" DurationType="OneShot" DurationMin="0.85267574" DurationMax="0.85267574">
+					<MediaRefs>
+						<MediaRef Id="988850082"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="3537581393" Name="PlayerHurt" ObjectPath="\Triggers\Default Work Unit\PlayerHurt" GUID="{773E024E-08A4-46F0-9E97-41F41AC05070}"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="1350496757" Name="PlayerMovement" ObjectPath="\Events\Default Work Unit\Character\PlayerMovement" GUID="{978D8939-FAAB-40B5-BD69-E062862BA7B6}" DurationType="OneShot" DurationMin="0.70088434" DurationMax="0.70088434">
+					<MediaRefs>
+						<MediaRef Id="64296840"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="1350496757" Name="PlayerMovement" ObjectPath="\Triggers\Default Work Unit\PlayerMovement" GUID="{C230EA52-6D75-45C1-B45E-5202AEE6EB35}"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="1930229316" Name="SlipFall" ObjectPath="\Events\Default Work Unit\Character\SlipFall" GUID="{98FD4256-122E-4299-BB66-CC0CAC0262B6}" DurationType="OneShot" DurationMin="1.2544671" DurationMax="1.2544671">
+					<MediaRefs>
+						<MediaRef Id="133871800"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="1930229316" Name="SlipFall" ObjectPath="\Triggers\Default Work Unit\SlipFall" GUID="{1E256ADD-82D9-4ACE-BC8C-EA28C7DEB66F}"/>
+					</ActionTrigger>
+				</Event>
+			</Events>
+			<Triggers>
+				<Trigger Id="626524337" Name="CustomerAnnoyed" ObjectPath="\Triggers\Default Work Unit\CustomerAnnoyed" GUID="{2A88DBAE-F26F-413A-8ED9-6DBEA25D098E}"/>
+				<Trigger Id="1350496757" Name="PlayerMovement" ObjectPath="\Triggers\Default Work Unit\PlayerMovement" GUID="{C230EA52-6D75-45C1-B45E-5202AEE6EB35}"/>
+				<Trigger Id="1930229316" Name="SlipFall" ObjectPath="\Triggers\Default Work Unit\SlipFall" GUID="{1E256ADD-82D9-4ACE-BC8C-EA28C7DEB66F}"/>
+				<Trigger Id="2293307949" Name="CustomerNoise" ObjectPath="\Triggers\Default Work Unit\CustomerNoise" GUID="{F86C2D47-16B5-44E9-9B8F-AD6CAFB358AA}"/>
+				<Trigger Id="2713985429" Name="CustomerDeath" ObjectPath="\Triggers\Default Work Unit\CustomerDeath" GUID="{105F1459-7E87-4C01-9527-A98CE4673174}"/>
+				<Trigger Id="3537581393" Name="PlayerHurt" ObjectPath="\Triggers\Default Work Unit\PlayerHurt" GUID="{773E024E-08A4-46F0-9E97-41F41AC05070}"/>
+				<Trigger Id="3845527995" Name="GhostSpawn" ObjectPath="\Triggers\Default Work Unit\GhostSpawn" GUID="{AB49E207-A0A7-46E6-B2DE-1CBD3D8DDE39}"/>
+				<Trigger Id="3966601280" Name="PlayerDie" ObjectPath="\Triggers\Default Work Unit\PlayerDie" GUID="{73CD7BB7-B8C0-4B83-BC03-430B52E9E4D2}"/>
+			</Triggers>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{987FEFED-A76B-844A-AEE3-553480D149FE}</FileHash>
+	<FileHash>{B5EEEF38-D217-8D2D-38BF-3A13B88226C9}</FileHash>
 </SoundBanksInfo>

@@ -383,6 +383,28 @@
 								<ActiveSource Name="PlayerMovement" ID="{8F56D5DC-E353-4FDC-85DF-24C71F30DCC5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="SlipFall" ID="{E2F319CE-2948-4CBA-B7D3-8BA851F5B2D6}" ShortID="427281736">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1AD4B7AC-C610-4E25-A9A7-50C3C5E3DFE6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AAC511A9-568A-4F38-8F70-AEE99E6B261E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SlipFall" ID="{A0A84165-A6C9-49ED-87A6-447879C4467D}">
+									<Language>SFX</Language>
+									<AudioFile>SlipFall.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="133871800"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SlipFall" ID="{A0A84165-A6C9-49ED-87A6-447879C4467D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Attack" ID="{A2D43523-8B4C-47DE-8780-DB78A0651E06}" ShortID="656238449"/>

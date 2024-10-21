@@ -13,6 +13,14 @@
 				<Trigger Name="ServeOrder" ID="{43814311-8A02-47C2-86F6-7B4E106296E6}"/>
 				<Trigger Name="WaterBoiling" ID="{6B11CB48-3B4D-4C5E-A9B5-232D25F8242C}"/>
 				<Trigger Name="WaterPump" ID="{8447C456-B2B5-4A55-A972-FB047ACF354C}"/>
+				<Trigger Name="CustomerNoise" ID="{F86C2D47-16B5-44E9-9B8F-AD6CAFB358AA}"/>
+				<Trigger Name="GhostSpawn" ID="{AB49E207-A0A7-46E6-B2DE-1CBD3D8DDE39}"/>
+				<Trigger Name="SlipFall" ID="{1E256ADD-82D9-4ACE-BC8C-EA28C7DEB66F}"/>
+				<Trigger Name="PlayerMovement" ID="{C230EA52-6D75-45C1-B45E-5202AEE6EB35}"/>
+				<Trigger Name="CustomerAnnoyed" ID="{2A88DBAE-F26F-413A-8ED9-6DBEA25D098E}"/>
+				<Trigger Name="CustomerDeath" ID="{105F1459-7E87-4C01-9527-A98CE4673174}"/>
+				<Trigger Name="PlayerHurt" ID="{773E024E-08A4-46F0-9E97-41F41AC05070}"/>
+				<Trigger Name="PlayerDie" ID="{73CD7BB7-B8C0-4B83-BC03-430B52E9E4D2}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Triggers>

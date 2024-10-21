@@ -3,7 +3,178 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Character" ID="{C22A3933-8F10-45D5-B502-FC230B79A391}" ShortID="840171431"/>
+				<Folder Name="Character" ID="{C22A3933-8F10-45D5-B502-FC230B79A391}" ShortID="840171431">
+					<ChildrenList>
+						<Event Name="CustomerAnnoyed" ID="{33194C12-44F0-4D44-AAD6-E445B17FCD60}">
+							<ChildrenList>
+								<Action Name="" ID="{DF9E6965-5EFE-401B-89CB-BB07DF0D9229}" ShortID="27417014">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CustomerAnnoyed" ID="{2A88DBAE-F26F-413A-8ED9-6DBEA25D098E}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7FBED609-10C0-4FD4-9698-B3A91D364AD8}" ShortID="1062277888">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CustomerAnnoyed" ID="{521A7FB5-8446-4041-AB91-E67985EE665A}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CustomerDeath" ID="{82DD2280-5250-41F4-8EF4-2AFC8A819C07}">
+							<ChildrenList>
+								<Action Name="" ID="{9DC03B5B-7244-468B-939F-53B46B6E58FC}" ShortID="916938916">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CustomerDeath" ID="{105F1459-7E87-4C01-9527-A98CE4673174}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F3D4AA37-C651-40F4-9B0C-0FC51FD3EE3B}" ShortID="203941206">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CustomerDeath" ID="{47EF4D5E-C8C7-4CD7-B036-246F074C547E}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GhostSpawn" ID="{383B7353-F3E7-4481-9A91-E220684B8C4D}">
+							<ChildrenList>
+								<Action Name="" ID="{AB22C692-8AD1-46B2-9BF6-C9073F96B4EC}" ShortID="892924118">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GhostSpawn" ID="{AB49E207-A0A7-46E6-B2DE-1CBD3D8DDE39}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E73FCA84-EE97-43EF-80AB-4C3628059EDC}" ShortID="531616079">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GhostSpawn" ID="{9CB69F7C-EEB2-4E28-AD5E-A6C6BF9AB7D1}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerDie" ID="{FD256E16-D2DF-4957-BDDC-E5425F104D14}">
+							<ChildrenList>
+								<Action Name="" ID="{4ED6BF7A-7E04-4AA0-943C-9898913A23DB}" ShortID="1015002887">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerDie" ID="{73CD7BB7-B8C0-4B83-BC03-430B52E9E4D2}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E36C2FAE-358C-4D26-AA99-4C4EB2A98725}" ShortID="166326021">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerDie" ID="{FFF42630-8559-459E-9D8D-DF8527B549DF}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerHurt" ID="{EAD76C21-A6FE-4EA2-B9F4-84C3F9F6F837}">
+							<ChildrenList>
+								<Action Name="" ID="{7E86855A-D03D-48F9-A535-4774F06C50A8}" ShortID="71571145">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerHurt" ID="{773E024E-08A4-46F0-9E97-41F41AC05070}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EDC098D0-57A0-4215-8960-D76F36502242}" ShortID="603054352">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerHurt" ID="{78917076-2F41-4263-8712-0235BB1ADB60}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerMovement" ID="{978D8939-FAAB-40B5-BD69-E062862BA7B6}">
+							<ChildrenList>
+								<Action Name="" ID="{5CF4B5EF-BC13-403D-B616-3E521146D654}" ShortID="106715258">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerMovement" ID="{C230EA52-6D75-45C1-B45E-5202AEE6EB35}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3AA3FC70-F045-44C7-AB73-34B3DCEF0FF8}" ShortID="116413028">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerMovement" ID="{243036CE-2EFB-450C-AF13-4DC9113548BE}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SlipFall" ID="{98FD4256-122E-4299-BB66-CC0CAC0262B6}">
+							<ChildrenList>
+								<Action Name="" ID="{E8156978-0BED-482A-92BB-0531AB7507C6}" ShortID="294873628">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SlipFall" ID="{1E256ADD-82D9-4ACE-BC8C-EA28C7DEB66F}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{577C8808-E53A-4331-BB88-D8A5CF13CF28}" ShortID="272486177">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SlipFall" ID="{E2F319CE-2948-4CBA-B7D3-8BA851F5B2D6}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CustomerNoise" ID="{1AAD57E2-4D9E-4264-B609-EB1AAF25C77D}">
+							<ChildrenList>
+								<Action Name="" ID="{E9CEAF7E-0299-483A-ACA9-5200C0331859}" ShortID="17179751">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CustomerNoise" ID="{F86C2D47-16B5-44E9-9B8F-AD6CAFB358AA}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1A189EC1-53D0-4604-B75C-D372194719D6}" ShortID="784054917">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CustomerNoise" ID="{1BC33D97-3C51-482B-BEF4-D901D1B3EF83}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="Item Interaction" ID="{3F67150F-AB4A-4FF0-A42D-87FDA370F0A4}" ShortID="589837423">
 					<ChildrenList>
 						<Event Name="Chopping_Board" ID="{F03CD971-5B00-4A50-87B0-129DCA8F9B25}">

@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	626524337	CustomerAnnoyed			\Default Work Unit\Character\CustomerAnnoyed	
+	1350496757	PlayerMovement			\Default Work Unit\Character\PlayerMovement	
+	1930229316	SlipFall			\Default Work Unit\Character\SlipFall	
+	2293307949	CustomerNoise			\Default Work Unit\Character\CustomerNoise	
+	2713985429	CustomerDeath			\Default Work Unit\Character\CustomerDeath	
+	3537581393	PlayerHurt			\Default Work Unit\Character\PlayerHurt	
+	3845527995	GhostSpawn			\Default Work Unit\Character\GhostSpawn	
+	3966601280	PlayerDie			\Default Work Unit\Character\PlayerDie	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	64296840	PlayerMovement	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\PlayerMovement_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\PlayerMovement		61962
+	132683153	CustomerDeath	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\CustomerDeath_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CustomerDeath		92282
+	133871800	SlipFall	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\SlipFall_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\SlipFall		110788
+	388462631	PlayerDie	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\PlayerDie_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\PlayerDie		113150
+	441972041	GhostSpawn	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\GhostSpawn_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\GhostSpawn		208044
+	988850082	PlayerHurt	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\PlayerHurt_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\PlayerHurt		75350
+	1002779129	CustomerNoise	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\CustomerNoise_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CustomerNoise		71412
+	1015239044	CustomerAnnoyed	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\CustomerAnnoyed_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CustomerAnnoyed		87950
+

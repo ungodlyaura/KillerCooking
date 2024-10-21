@@ -31,6 +31,28 @@
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
+						<SoundBank Name="CharacterBank" ID="{2FE15407-3D39-4E38-944C-DAC8A0065380}">
+							<ObjectInclusionList>
+								<ObjectRef Name="CustomerAnnoyed" ID="{521A7FB5-8446-4041-AB91-E67985EE665A}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="PlayerMovement" ID="{978D8939-FAAB-40B5-BD69-E062862BA7B6}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="CustomerDeath" ID="{82DD2280-5250-41F4-8EF4-2AFC8A819C07}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="PlayerHurt" ID="{78917076-2F41-4263-8712-0235BB1ADB60}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="CustomerNoise" ID="{1AAD57E2-4D9E-4264-B609-EB1AAF25C77D}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="SlipFall" ID="{98FD4256-122E-4299-BB66-CC0CAC0262B6}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="GhostSpawn" ID="{383B7353-F3E7-4481-9A91-E220684B8C4D}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="PlayerMovement" ID="{243036CE-2EFB-450C-AF13-4DC9113548BE}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="PlayerDie" ID="{FFF42630-8559-459E-9D8D-DF8527B549DF}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="CustomerNoise" ID="{1BC33D97-3C51-482B-BEF4-D901D1B3EF83}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="PlayerDie" ID="{FD256E16-D2DF-4957-BDDC-E5425F104D14}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="SlipFall" ID="{E2F319CE-2948-4CBA-B7D3-8BA851F5B2D6}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="CustomerDeath" ID="{47EF4D5E-C8C7-4CD7-B036-246F074C547E}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="CustomerAnnoyed" ID="{33194C12-44F0-4D44-AAD6-E445B17FCD60}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="GhostSpawn" ID="{9CB69F7C-EEB2-4E28-AD5E-A6C6BF9AB7D1}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="PlayerHurt" ID="{EAD76C21-A6FE-4EA2-B9F4-84C3F9F6F837}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

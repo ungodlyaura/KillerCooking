@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5EDDEEC3-D0FE-4BC6-83EC-F61AAA57E588}" SchemaVersion="119">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{5EDDEEC3-D0FE-4BC6-83EC-F61AAA57E588}" PersistMode="Standalone">
-			<ChildrenList>
-				<Folder Name="Item States" ID="{BAC25D6E-7BAA-49D8-A808-99EF74A4F0D9}" ShortID="68669252"/>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{5EDDEEC3-D0FE-4BC6-83EC-F61AAA57E588}" PersistMode="Standalone"/>
 	</States>
 </WwiseDocument>
