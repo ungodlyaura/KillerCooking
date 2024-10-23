@@ -27,6 +27,10 @@
 				<Trigger Name="NukeDefuseButtons" ID="{E005AE1C-0646-4A6F-9B5F-09BC1BB0D916}"/>
 				<Trigger Name="NukeExplosion" ID="{F630B9D5-B39F-4C1C-B14F-FBD0FD0DD30A}"/>
 				<Trigger Name="NukeTimer" ID="{99ECB132-1796-4FBA-8EC9-E415540CA463}"/>
+				<Trigger Name="ErrorSound" ID="{D8733836-FDE5-4045-9793-7D4FAFA16268}"/>
+				<Trigger Name="TimerEnd" ID="{83DA30CE-2FC1-407C-8A9C-352EC23E2CEA}"/>
+				<Trigger Name="TimerTicking" ID="{2E5DAE40-89B8-4164-9F11-16FE4123EE0F}"/>
+				<Trigger Name="MenuSound" ID="{2010DC21-AD84-419E-8E95-BD9E843D87F2}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Triggers>

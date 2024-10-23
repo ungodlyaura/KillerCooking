@@ -519,6 +519,94 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Generic" ID="{11C59146-18D1-4CAD-9E04-B745DBFEE47B}" ShortID="207704031">
+					<ChildrenList>
+						<Event Name="ErrorSound" ID="{4D8CEB4D-CACB-4D27-A49F-38D712828819}">
+							<ChildrenList>
+								<Action Name="" ID="{E6E2D287-732F-4093-BDCC-2F08C819963B}" ShortID="715707175">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ErrorSound" ID="{D8733836-FDE5-4045-9793-7D4FAFA16268}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9B1E9B6B-233D-459A-999A-7BBCE2F63852}" ShortID="540509973">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ErrorSound" ID="{2B304769-6F5A-40F9-B12E-114B687075C3}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MenuSound" ID="{CF840436-853E-4420-8505-DDB386163C1E}">
+							<ChildrenList>
+								<Action Name="" ID="{95C963CE-ACDA-4C8C-A447-64DA6EC0DC00}" ShortID="1033661337">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MenuSound" ID="{2010DC21-AD84-419E-8E95-BD9E843D87F2}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{129A6151-5001-4CDC-9EEE-0538C841E520}" ShortID="492745578">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MenuSound" ID="{DCD9F9EB-2DA1-439E-B3A8-E536C143A856}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="TimerEnd" ID="{FD321260-9024-46F1-82D6-A8F8FD5BCFF4}">
+							<ChildrenList>
+								<Action Name="" ID="{1BAFE217-EBDA-4697-81D5-F616E1A4A7FB}" ShortID="223964316">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimerEnd" ID="{83DA30CE-2FC1-407C-8A9C-352EC23E2CEA}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5A0FDCDB-4A8A-4C50-9F72-DF9EE76F6B72}" ShortID="836671020">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimerEnd" ID="{8EF283A8-2266-4F02-AF0E-279F00D177C5}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="TimerTicking" ID="{53A3F22B-BED0-4061-871B-E99BF00B6085}">
+							<ChildrenList>
+								<Action Name="" ID="{1A2A2DD5-ED56-48A5-BBF5-50DF1126E34D}" ShortID="576726803">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimerTicking" ID="{2E5DAE40-89B8-4164-9F11-16FE4123EE0F}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{049A0AF8-5EAD-4735-ABB5-A4667A60C3F2}" ShortID="470826973">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimerTicking" ID="{E489F66B-2015-41C5-BEE7-6D76A40FB74C}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,0 +1,171 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3981411482",
+    "Type": "User",
+    "GUID": "{80E59A45-CE03-4745-8716-E3FE3A353C1C}",
+    "Language": "SFX",
+    "Hash": "{A2695549-7F42-B790-9D21-BD6361A24A30}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\RatKing\\GenericBank",
+    "ShortName": "GenericBank",
+    "Path": "GenericBank.bnk",
+    "Media": [
+     {
+      "Id": "29080578",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ErrorSound.wav",
+      "CachePath": "SFX/ErrorSound_818F3B66.wem"
+     },
+     {
+      "Id": "301291647",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "TimerTicking.wav",
+      "CachePath": "SFX/TimerTicking_818F3B66.wem"
+     },
+     {
+      "Id": "513685029",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MenuSound.wav",
+      "CachePath": "SFX/MenuSound_818F3B66.wem"
+     },
+     {
+      "Id": "687961792",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "TimerEnd.wav",
+      "CachePath": "SFX/TimerEnd_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1136066642",
+      "Name": "ErrorSound",
+      "ObjectPath": "\\Events\\Default Work Unit\\Generic\\ErrorSound",
+      "GUID": "{4D8CEB4D-CACB-4D27-A49F-38D712828819}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.979161",
+      "DurationMax": "0.979161",
+      "MediaRefs": [
+       {
+        "Id": "29080578"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "1136066642",
+        "Name": "ErrorSound",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\ErrorSound",
+        "GUID": "{D8733836-FDE5-4045-9793-7D4FAFA16268}"
+       }
+      ]
+     },
+     {
+      "Id": "1197727813",
+      "Name": "MenuSound",
+      "ObjectPath": "\\Events\\Default Work Unit\\Generic\\MenuSound",
+      "GUID": "{CF840436-853E-4420-8505-DDB386163C1E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.270839",
+      "DurationMax": "0.270839",
+      "MediaRefs": [
+       {
+        "Id": "513685029"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "1197727813",
+        "Name": "MenuSound",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\MenuSound",
+        "GUID": "{2010DC21-AD84-419E-8E95-BD9E843D87F2}"
+       }
+      ]
+     },
+     {
+      "Id": "2084530899",
+      "Name": "TimerEnd",
+      "ObjectPath": "\\Events\\Default Work Unit\\Generic\\TimerEnd",
+      "GUID": "{FD321260-9024-46F1-82D6-A8F8FD5BCFF4}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.8802042",
+      "DurationMax": "2.8802042",
+      "MediaRefs": [
+       {
+        "Id": "687961792"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "2084530899",
+        "Name": "TimerEnd",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\TimerEnd",
+        "GUID": "{83DA30CE-2FC1-407C-8A9C-352EC23E2CEA}"
+       }
+      ]
+     },
+     {
+      "Id": "2620497389",
+      "Name": "TimerTicking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Generic\\TimerTicking",
+      "GUID": "{53A3F22B-BED0-4061-871B-E99BF00B6085}",
+      "DurationType": "OneShot",
+      "DurationMin": "16",
+      "DurationMax": "16",
+      "MediaRefs": [
+       {
+        "Id": "301291647"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "2620497389",
+        "Name": "TimerTicking",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\TimerTicking",
+        "GUID": "{2E5DAE40-89B8-4164-9F11-16FE4123EE0F}"
+       }
+      ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "1136066642",
+      "Name": "ErrorSound",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\ErrorSound",
+      "GUID": "{D8733836-FDE5-4045-9793-7D4FAFA16268}"
+     },
+     {
+      "Id": "1197727813",
+      "Name": "MenuSound",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\MenuSound",
+      "GUID": "{2010DC21-AD84-419E-8E95-BD9E843D87F2}"
+     },
+     {
+      "Id": "2084530899",
+      "Name": "TimerEnd",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\TimerEnd",
+      "GUID": "{83DA30CE-2FC1-407C-8A9C-352EC23E2CEA}"
+     },
+     {
+      "Id": "2620497389",
+      "Name": "TimerTicking",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\TimerTicking",
+      "GUID": "{2E5DAE40-89B8-4164-9F11-16FE4123EE0F}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{06D54262-B309-1B59-6CEE-557C1AC295E0}"
+ }
+}

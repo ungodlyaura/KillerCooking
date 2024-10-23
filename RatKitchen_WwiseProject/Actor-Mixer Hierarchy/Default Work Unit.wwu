@@ -543,7 +543,98 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Generic" ID="{FBA6010E-148C-42EC-948E-02C8BC00EB93}" ShortID="135354619"/>
+				<Folder Name="Generic" ID="{FBA6010E-148C-42EC-948E-02C8BC00EB93}" ShortID="135354619">
+					<ChildrenList>
+						<Sound Name="ErrorSound" ID="{2B304769-6F5A-40F9-B12E-114B687075C3}" ShortID="208932109">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1AD4B7AC-C610-4E25-A9A7-50C3C5E3DFE6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AAC511A9-568A-4F38-8F70-AEE99E6B261E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ErrorSound" ID="{A0ACBC8B-1C54-4692-8C2A-F192D101C8AD}">
+									<Language>SFX</Language>
+									<AudioFile>ErrorSound.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="29080578"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ErrorSound" ID="{A0ACBC8B-1C54-4692-8C2A-F192D101C8AD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MenuSound" ID="{DCD9F9EB-2DA1-439E-B3A8-E536C143A856}" ShortID="27889911">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1AD4B7AC-C610-4E25-A9A7-50C3C5E3DFE6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AAC511A9-568A-4F38-8F70-AEE99E6B261E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MenuSound" ID="{4A362EDF-8965-4DF1-8E20-86817172BD5C}">
+									<Language>SFX</Language>
+									<AudioFile>MenuSound.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="513685029"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MenuSound" ID="{4A362EDF-8965-4DF1-8E20-86817172BD5C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TimerEnd" ID="{8EF283A8-2266-4F02-AF0E-279F00D177C5}" ShortID="84048813">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1AD4B7AC-C610-4E25-A9A7-50C3C5E3DFE6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AAC511A9-568A-4F38-8F70-AEE99E6B261E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TimerEnd" ID="{98CF1BEA-DC16-4CF7-8015-62F0E787AD24}">
+									<Language>SFX</Language>
+									<AudioFile>TimerEnd.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="687961792"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TimerEnd" ID="{98CF1BEA-DC16-4CF7-8015-62F0E787AD24}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TimerTicking" ID="{E489F66B-2015-41C5-BEE7-6D76A40FB74C}" ShortID="261957444">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1AD4B7AC-C610-4E25-A9A7-50C3C5E3DFE6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AAC511A9-568A-4F38-8F70-AEE99E6B261E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TimerTicking" ID="{572925ED-8AF0-41D9-A1B3-D400A8D03537}">
+									<Language>SFX</Language>
+									<AudioFile>TimerTicking.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="301291647"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TimerTicking" ID="{572925ED-8AF0-41D9-A1B3-D400A8D03537}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="Music" ID="{E1EB6183-46B9-4268-BD62-4B6DAE0B255E}" ShortID="869825140"/>
 			</ChildrenList>
 		</WorkUnit>

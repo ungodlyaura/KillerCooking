@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1136066642	ErrorSound			\Default Work Unit\Generic\ErrorSound	
+	1197727813	MenuSound			\Default Work Unit\Generic\MenuSound	
+	2084530899	TimerEnd			\Default Work Unit\Generic\TimerEnd	
+	2620497389	TimerTicking			\Default Work Unit\Generic\TimerTicking	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	29080578	ErrorSound	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\ErrorSound_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Generic\ErrorSound		86506
+	301291647	TimerTicking	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\TimerTicking_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Generic\TimerTicking		1411344
+	513685029	MenuSound	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\MenuSound_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Generic\MenuSound		24032
+	687961792	TimerEnd	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\TimerEnd_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Generic\TimerEnd		254178
+

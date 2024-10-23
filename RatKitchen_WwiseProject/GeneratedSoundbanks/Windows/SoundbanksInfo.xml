@@ -368,6 +368,69 @@
 				<Trigger Id="3910346330" Name="BombExplosion" ObjectPath="\Triggers\Default Work Unit\BombExplosion" GUID="{F875FABC-AA64-4FE2-8977-D01A6A6B77E3}"/>
 			</Triggers>
 		</SoundBank>
+		<SoundBank Id="3981411482" Type="User" GUID="{80E59A45-CE03-4745-8716-E3FE3A353C1C}" Language="SFX" Hash="{A2695549-7F42-B790-9D21-BD6361A24A30}">
+			<ObjectPath>\SoundBanks\Default Work Unit\RatKing\GenericBank</ObjectPath>
+			<ShortName>GenericBank</ShortName>
+			<Path>GenericBank.bnk</Path>
+			<Media>
+				<File Id="29080578" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ErrorSound.wav</ShortName>
+					<CachePath>SFX/ErrorSound_818F3B66.wem</CachePath>
+				</File>
+				<File Id="301291647" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TimerTicking.wav</ShortName>
+					<CachePath>SFX/TimerTicking_818F3B66.wem</CachePath>
+				</File>
+				<File Id="513685029" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MenuSound.wav</ShortName>
+					<CachePath>SFX/MenuSound_818F3B66.wem</CachePath>
+				</File>
+				<File Id="687961792" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TimerEnd.wav</ShortName>
+					<CachePath>SFX/TimerEnd_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1136066642" Name="ErrorSound" ObjectPath="\Events\Default Work Unit\Generic\ErrorSound" GUID="{4D8CEB4D-CACB-4D27-A49F-38D712828819}" DurationType="OneShot" DurationMin="0.979161" DurationMax="0.979161">
+					<MediaRefs>
+						<MediaRef Id="29080578"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="1136066642" Name="ErrorSound" ObjectPath="\Triggers\Default Work Unit\ErrorSound" GUID="{D8733836-FDE5-4045-9793-7D4FAFA16268}"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="1197727813" Name="MenuSound" ObjectPath="\Events\Default Work Unit\Generic\MenuSound" GUID="{CF840436-853E-4420-8505-DDB386163C1E}" DurationType="OneShot" DurationMin="0.270839" DurationMax="0.270839">
+					<MediaRefs>
+						<MediaRef Id="513685029"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="1197727813" Name="MenuSound" ObjectPath="\Triggers\Default Work Unit\MenuSound" GUID="{2010DC21-AD84-419E-8E95-BD9E843D87F2}"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2084530899" Name="TimerEnd" ObjectPath="\Events\Default Work Unit\Generic\TimerEnd" GUID="{FD321260-9024-46F1-82D6-A8F8FD5BCFF4}" DurationType="OneShot" DurationMin="2.8802042" DurationMax="2.8802042">
+					<MediaRefs>
+						<MediaRef Id="687961792"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2084530899" Name="TimerEnd" ObjectPath="\Triggers\Default Work Unit\TimerEnd" GUID="{83DA30CE-2FC1-407C-8A9C-352EC23E2CEA}"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2620497389" Name="TimerTicking" ObjectPath="\Events\Default Work Unit\Generic\TimerTicking" GUID="{53A3F22B-BED0-4061-871B-E99BF00B6085}" DurationType="OneShot" DurationMin="16" DurationMax="16">
+					<MediaRefs>
+						<MediaRef Id="301291647"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2620497389" Name="TimerTicking" ObjectPath="\Triggers\Default Work Unit\TimerTicking" GUID="{2E5DAE40-89B8-4164-9F11-16FE4123EE0F}"/>
+					</ActionTrigger>
+				</Event>
+			</Events>
+			<Triggers>
+				<Trigger Id="1136066642" Name="ErrorSound" ObjectPath="\Triggers\Default Work Unit\ErrorSound" GUID="{D8733836-FDE5-4045-9793-7D4FAFA16268}"/>
+				<Trigger Id="1197727813" Name="MenuSound" ObjectPath="\Triggers\Default Work Unit\MenuSound" GUID="{2010DC21-AD84-419E-8E95-BD9E843D87F2}"/>
+				<Trigger Id="2084530899" Name="TimerEnd" ObjectPath="\Triggers\Default Work Unit\TimerEnd" GUID="{83DA30CE-2FC1-407C-8A9C-352EC23E2CEA}"/>
+				<Trigger Id="2620497389" Name="TimerTicking" ObjectPath="\Triggers\Default Work Unit\TimerTicking" GUID="{2E5DAE40-89B8-4164-9F11-16FE4123EE0F}"/>
+			</Triggers>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DAF830E8-E68B-A9C4-7AC5-F590EBC0C7C5}</FileHash>
+	<FileHash>{1719E7D0-2CEB-5F38-CAEB-1748D91B1E0D}</FileHash>
 </SoundBanksInfo>

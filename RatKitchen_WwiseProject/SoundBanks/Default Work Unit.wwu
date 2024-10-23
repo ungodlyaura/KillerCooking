@@ -71,6 +71,20 @@
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
+						<SoundBank Name="GenericBank" ID="{80E59A45-CE03-4745-8716-E3FE3A353C1C}">
+							<ObjectInclusionList>
+								<ObjectRef Name="TimerTicking" ID="{53A3F22B-BED0-4061-871B-E99BF00B6085}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="ErrorSound" ID="{2B304769-6F5A-40F9-B12E-114B687075C3}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="TimerTicking" ID="{E489F66B-2015-41C5-BEE7-6D76A40FB74C}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="MenuSound" ID="{DCD9F9EB-2DA1-439E-B3A8-E536C143A856}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="MenuSound" ID="{CF840436-853E-4420-8505-DDB386163C1E}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="TimerEnd" ID="{FD321260-9024-46F1-82D6-A8F8FD5BCFF4}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="ErrorSound" ID="{4D8CEB4D-CACB-4D27-A49F-38D712828819}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="TimerEnd" ID="{8EF283A8-2266-4F02-AF0E-279F00D177C5}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
