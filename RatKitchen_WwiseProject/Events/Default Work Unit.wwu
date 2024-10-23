@@ -389,6 +389,136 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Attack" ID="{B4964DE3-1D19-4DFD-803F-B05425D94A46}" ShortID="254878477">
+					<ChildrenList>
+						<Event Name="BombExplosion" ID="{64B51F71-97CE-4D3C-9F89-FB5CE32D9679}">
+							<ChildrenList>
+								<Action Name="" ID="{5285FA0C-9510-4815-B4A6-544AC28B31E4}" ShortID="614581390">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BombExplosion" ID="{F875FABC-AA64-4FE2-8977-D01A6A6B77E3}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9D130C32-8C44-4FA4-B4FC-300F302E9645}" ShortID="909101753">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BombExplosion" ID="{2891FF11-AAE9-4433-9EB5-7A91DBBA8D47}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BombFuse" ID="{BED4FB59-CF78-4288-A6AD-41C0266829C7}">
+							<ChildrenList>
+								<Action Name="" ID="{0ADE7285-B1F0-4349-9DA1-0A39C97E336A}" ShortID="255456725">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BombFuse" ID="{069A7457-309D-4872-814B-A475366F68C6}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3E17F3A8-5790-4E8C-879D-61C03497FAFD}" ShortID="164263951">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BombFuse" ID="{8A8A530B-49FD-44B1-BA62-EDCA6A00F473}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="NukeDefuseButtons" ID="{5C5495D7-3E4F-4809-AA9D-D74D15CB61C5}">
+							<ChildrenList>
+								<Action Name="" ID="{BC72DCFF-849B-491B-9256-87DBC6D5BA45}" ShortID="488711501">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="NukeDefuseButtons" ID="{E005AE1C-0646-4A6F-9B5F-09BC1BB0D916}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B57181F6-47EC-4B3A-8675-EDDFFE22FF15}" ShortID="724926149">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="NukeDefuseButtons" ID="{103ED4E9-4EF1-4DA5-8027-697462CC5353}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="NukeExplosion" ID="{C0F17E4D-908C-4D7E-A27D-8C5F5803BCD6}">
+							<ChildrenList>
+								<Action Name="" ID="{F4F9AD18-2C22-458A-8160-5EB6C9E152D0}" ShortID="80222212">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="NukeExplosion" ID="{F630B9D5-B39F-4C1C-B14F-FBD0FD0DD30A}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9E1D5AFD-6309-4A39-BB5C-72D2820D5A40}" ShortID="382660056">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="NukeExplosion" ID="{993AA051-A060-4E43-A62C-FCDFFA8D2D60}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="NukeTimer" ID="{A9201954-5751-42DB-9579-84D9C5DB431B}">
+							<ChildrenList>
+								<Action Name="" ID="{836E9548-E30D-4F15-9687-ECCB13B112B4}" ShortID="152815968">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="NukeTimer" ID="{99ECB132-1796-4FBA-8EC9-E415540CA463}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{291DF73C-18B4-425F-820A-53D617345638}" ShortID="576445883">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="NukeTimer" ID="{AEEE7E2A-623A-4AA8-B3A9-2F63BB08C31D}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="FireAttack" ID="{1AB5491A-BD47-41C4-820D-3D8C0F379E09}">
+							<ChildrenList>
+								<Action Name="" ID="{EDD8665A-5453-4153-82EF-F23F9F46D418}" ShortID="859427754">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FireAttack" ID="{8802099E-5375-4FD7-9AD2-FD7EE92971E4}" WorkUnitID="{3375E348-962A-446F-86FD-DA21B3DE62C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7517834C-A4A2-43C8-88BB-609B7621A612}" ShortID="419097688">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FireAttack" ID="{A876D71B-ACA9-40C7-AF5C-ABE660D0D8BD}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

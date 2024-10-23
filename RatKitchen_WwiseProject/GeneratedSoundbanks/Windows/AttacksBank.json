@@ -1,0 +1,243 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3296263334",
+    "Type": "User",
+    "GUID": "{3071DE49-0F76-4705-AA86-80E74EBC2DCB}",
+    "Language": "SFX",
+    "Hash": "{B36F83A9-CA42-0455-0E05-3AF38020CA98}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\RatKing\\AttacksBank",
+    "ShortName": "AttacksBank",
+    "Path": "AttacksBank.bnk",
+    "Media": [
+     {
+      "Id": "394077887",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FireAttack.wav",
+      "CachePath": "SFX/FireAttack_818F3B66.wem"
+     },
+     {
+      "Id": "828407512",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "NukeDefuseButtons.wav",
+      "CachePath": "SFX/NukeDefuseButtons_818F3B66.wem"
+     },
+     {
+      "Id": "945642419",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "NukeTimer.wav",
+      "CachePath": "SFX/NukeTimer_818F3B66.wem"
+     },
+     {
+      "Id": "979796208",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "NukeExplosion.wav",
+      "CachePath": "SFX/NukeExplosion_818F3B66.wem"
+     },
+     {
+      "Id": "999948727",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BombExplosion.wav",
+      "CachePath": "SFX/BombExplosion_818F3B66.wem"
+     },
+     {
+      "Id": "1023276808",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BombFuse.wav",
+      "CachePath": "SFX/BombFuse_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3910346330",
+      "Name": "BombExplosion",
+      "ObjectPath": "\\Events\\Default Work Unit\\Attack\\BombExplosion",
+      "GUID": "{64B51F71-97CE-4D3C-9F89-FB5CE32D9679}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.973968",
+      "DurationMax": "4.973968",
+      "MediaRefs": [
+       {
+        "Id": "999948727"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "3910346330",
+        "Name": "BombExplosion",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\BombExplosion",
+        "GUID": "{F875FABC-AA64-4FE2-8977-D01A6A6B77E3}"
+       }
+      ]
+     },
+     {
+      "Id": "1069250406",
+      "Name": "BombFuse",
+      "ObjectPath": "\\Events\\Default Work Unit\\Attack\\BombFuse",
+      "GUID": "{BED4FB59-CF78-4288-A6AD-41C0266829C7}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.098957",
+      "DurationMax": "7.098957",
+      "MediaRefs": [
+       {
+        "Id": "1023276808"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "1069250406",
+        "Name": "BombFuse",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\BombFuse",
+        "GUID": "{069A7457-309D-4872-814B-A475366F68C6}"
+       }
+      ]
+     },
+     {
+      "Id": "3346680257",
+      "Name": "FireAttack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Attack\\FireAttack",
+      "GUID": "{1AB5491A-BD47-41C4-820D-3D8C0F379E09}",
+      "DurationType": "OneShot",
+      "DurationMin": "8",
+      "DurationMax": "8",
+      "MediaRefs": [
+       {
+        "Id": "394077887"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "3346680257",
+        "Name": "FireAttack",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\FireAttack",
+        "GUID": "{8802099E-5375-4FD7-9AD2-FD7EE92971E4}"
+       }
+      ]
+     },
+     {
+      "Id": "1991756911",
+      "Name": "NukeDefuseButtons",
+      "ObjectPath": "\\Events\\Default Work Unit\\Attack\\NukeDefuseButtons",
+      "GUID": "{5C5495D7-3E4F-4809-AA9D-D74D15CB61C5}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.7634015",
+      "DurationMax": "6.7634015",
+      "MediaRefs": [
+       {
+        "Id": "828407512"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "1991756911",
+        "Name": "NukeDefuseButtons",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\NukeDefuseButtons",
+        "GUID": "{E005AE1C-0646-4A6F-9B5F-09BC1BB0D916}"
+       }
+      ]
+     },
+     {
+      "Id": "2376139375",
+      "Name": "NukeExplosion",
+      "ObjectPath": "\\Events\\Default Work Unit\\Attack\\NukeExplosion",
+      "GUID": "{C0F17E4D-908C-4D7E-A27D-8C5F5803BCD6}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.130204",
+      "DurationMax": "4.130204",
+      "MediaRefs": [
+       {
+        "Id": "979796208"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "2376139375",
+        "Name": "NukeExplosion",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\NukeExplosion",
+        "GUID": "{F630B9D5-B39F-4C1C-B14F-FBD0FD0DD30A}"
+       }
+      ]
+     },
+     {
+      "Id": "407402393",
+      "Name": "NukeTimer",
+      "ObjectPath": "\\Events\\Default Work Unit\\Attack\\NukeTimer",
+      "GUID": "{A9201954-5751-42DB-9579-84D9C5DB431B}",
+      "DurationType": "OneShot",
+      "DurationMin": "8",
+      "DurationMax": "8",
+      "MediaRefs": [
+       {
+        "Id": "945642419"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "407402393",
+        "Name": "NukeTimer",
+        "ObjectPath": "\\Triggers\\Default Work Unit\\NukeTimer",
+        "GUID": "{99ECB132-1796-4FBA-8EC9-E415540CA463}"
+       }
+      ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "407402393",
+      "Name": "NukeTimer",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\NukeTimer",
+      "GUID": "{99ECB132-1796-4FBA-8EC9-E415540CA463}"
+     },
+     {
+      "Id": "1069250406",
+      "Name": "BombFuse",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\BombFuse",
+      "GUID": "{069A7457-309D-4872-814B-A475366F68C6}"
+     },
+     {
+      "Id": "1991756911",
+      "Name": "NukeDefuseButtons",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\NukeDefuseButtons",
+      "GUID": "{E005AE1C-0646-4A6F-9B5F-09BC1BB0D916}"
+     },
+     {
+      "Id": "2376139375",
+      "Name": "NukeExplosion",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\NukeExplosion",
+      "GUID": "{F630B9D5-B39F-4C1C-B14F-FBD0FD0DD30A}"
+     },
+     {
+      "Id": "3346680257",
+      "Name": "FireAttack",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\FireAttack",
+      "GUID": "{8802099E-5375-4FD7-9AD2-FD7EE92971E4}"
+     },
+     {
+      "Id": "3910346330",
+      "Name": "BombExplosion",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\BombExplosion",
+      "GUID": "{F875FABC-AA64-4FE2-8977-D01A6A6B77E3}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{AB4BECC0-0D0C-C5A2-F3BF-475F829BEE47}"
+ }
+}

@@ -21,6 +21,12 @@
 				<Trigger Name="CustomerDeath" ID="{105F1459-7E87-4C01-9527-A98CE4673174}"/>
 				<Trigger Name="PlayerHurt" ID="{773E024E-08A4-46F0-9E97-41F41AC05070}"/>
 				<Trigger Name="PlayerDie" ID="{73CD7BB7-B8C0-4B83-BC03-430B52E9E4D2}"/>
+				<Trigger Name="FireAttack" ID="{8802099E-5375-4FD7-9AD2-FD7EE92971E4}"/>
+				<Trigger Name="BombFuse" ID="{069A7457-309D-4872-814B-A475366F68C6}"/>
+				<Trigger Name="BombExplosion" ID="{F875FABC-AA64-4FE2-8977-D01A6A6B77E3}"/>
+				<Trigger Name="NukeDefuseButtons" ID="{E005AE1C-0646-4A6F-9B5F-09BC1BB0D916}"/>
+				<Trigger Name="NukeExplosion" ID="{F630B9D5-B39F-4C1C-B14F-FBD0FD0DD30A}"/>
+				<Trigger Name="NukeTimer" ID="{99ECB132-1796-4FBA-8EC9-E415540CA463}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Triggers>

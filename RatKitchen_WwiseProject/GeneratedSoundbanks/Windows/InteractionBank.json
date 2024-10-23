@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{179767C9-9EE8-46ED-808F-4EA9E6BBF361}",
     "Language": "SFX",
-    "Hash": "{09494B21-1210-8E3E-AE24-416E9C81B8E3}",
+    "Hash": "{16548799-0B8E-1B68-2E0F-E13883DC5DE3}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\RatKing\\InteractionBank",
     "ShortName": "InteractionBank",
     "Path": "InteractionBank.bnk",
@@ -191,8 +191,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Item Interaction\\OvenUse",
       "GUID": "{F5AC902D-C3F6-4E6D-B07C-24E290DC7880}",
       "DurationType": "OneShot",
-      "DurationMin": "1.6919727",
-      "DurationMax": "1.6919727",
+      "DurationMin": "10.916667",
+      "DurationMax": "10.916667",
       "MediaRefs": [
        {
         "Id": "8324815"
@@ -382,6 +382,6 @@
     ]
    }
   ],
-  "FileHash": "{5CB2F335-367E-EAD0-C0EF-877C8E06FFD5}"
+  "FileHash": "{BC026467-FEB0-5C94-5D54-16C9CF8D448D}"
  }
 }

@@ -53,6 +53,24 @@
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
+						<SoundBank Name="AttacksBank" ID="{3071DE49-0F76-4705-AA86-80E74EBC2DCB}">
+							<ObjectInclusionList>
+								<ObjectRef Name="FireAttack" ID="{A876D71B-ACA9-40C7-AF5C-ABE660D0D8BD}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="FireAttack" ID="{1AB5491A-BD47-41C4-820D-3D8C0F379E09}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="BombFuse" ID="{BED4FB59-CF78-4288-A6AD-41C0266829C7}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="NukeTimer" ID="{A9201954-5751-42DB-9579-84D9C5DB431B}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="BombExplosion" ID="{2891FF11-AAE9-4433-9EB5-7A91DBBA8D47}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="BombFuse" ID="{8A8A530B-49FD-44B1-BA62-EDCA6A00F473}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="NukeDefuseButtons" ID="{5C5495D7-3E4F-4809-AA9D-D74D15CB61C5}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="NukeTimer" ID="{AEEE7E2A-623A-4AA8-B3A9-2F63BB08C31D}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="BombExplosion" ID="{64B51F71-97CE-4D3C-9F89-FB5CE32D9679}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="NukeExplosion" ID="{C0F17E4D-908C-4D7E-A27D-8C5F5803BCD6}" WorkUnitID="{07E93B7E-5E82-4C25-B8F2-E441BCCDA711}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="NukeDefuseButtons" ID="{103ED4E9-4EF1-4DA5-8027-697462CC5353}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="NukeExplosion" ID="{993AA051-A060-4E43-A62C-FCDFFA8D2D60}" WorkUnitID="{BADABAFF-7A4B-4A91-83BB-F42D813084BC}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

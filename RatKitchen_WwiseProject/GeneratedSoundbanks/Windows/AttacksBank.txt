@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	407402393	NukeTimer			\Default Work Unit\Attack\NukeTimer	
+	1069250406	BombFuse			\Default Work Unit\Attack\BombFuse	
+	1991756911	NukeDefuseButtons			\Default Work Unit\Attack\NukeDefuseButtons	
+	2376139375	NukeExplosion			\Default Work Unit\Attack\NukeExplosion	
+	3346680257	FireAttack			\Default Work Unit\Attack\FireAttack	
+	3910346330	BombExplosion			\Default Work Unit\Attack\BombExplosion	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	394077887	FireAttack	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\FireAttack_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack\FireAttack		705744
+	828407512	NukeDefuseButtons	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\NukeDefuseButtons_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack\NukeDefuseButtons		596676
+	945642419	NukeTimer	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\NukeTimer_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack\NukeTimer		705744
+	979796208	NukeExplosion	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\NukeExplosion_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack\NukeExplosion		364428
+	999948727	BombExplosion	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\BombExplosion_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack\BombExplosion		438848
+	1023276808	BombFuse	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\BombFuse_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack\BombFuse		626272
+

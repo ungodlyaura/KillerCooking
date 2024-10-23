@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1500889205" Type="User" GUID="{179767C9-9EE8-46ED-808F-4EA9E6BBF361}" Language="SFX" Hash="{09494B21-1210-8E3E-AE24-416E9C81B8E3}">
+		<SoundBank Id="1500889205" Type="User" GUID="{179767C9-9EE8-46ED-808F-4EA9E6BBF361}" Language="SFX" Hash="{16548799-0B8E-1B68-2E0F-E13883DC5DE3}">
 			<ObjectPath>\SoundBanks\Default Work Unit\RatKing\InteractionBank</ObjectPath>
 			<ShortName>InteractionBank</ShortName>
 			<Path>InteractionBank.bnk</Path>
@@ -80,7 +80,7 @@
 						<ActionTriggerEntry Id="2542736601" Name="ItemSwap" ObjectPath="\Triggers\Default Work Unit\ItemSwap" GUID="{EE5B6476-8276-4BD6-AC1C-4B40D9DD5E99}"/>
 					</ActionTrigger>
 				</Event>
-				<Event Id="3333125560" Name="OvenUse" ObjectPath="\Events\Default Work Unit\Item Interaction\OvenUse" GUID="{F5AC902D-C3F6-4E6D-B07C-24E290DC7880}" DurationType="OneShot" DurationMin="1.6919727" DurationMax="1.6919727">
+				<Event Id="3333125560" Name="OvenUse" ObjectPath="\Events\Default Work Unit\Item Interaction\OvenUse" GUID="{F5AC902D-C3F6-4E6D-B07C-24E290DC7880}" DurationType="OneShot" DurationMin="10.916667" DurationMax="10.916667">
 					<MediaRefs>
 						<MediaRef Id="8324815"/>
 					</MediaRefs>
@@ -143,5 +143,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{879C8E7D-D438-C691-D93B-30B5B38DA00A}</FileHash>
+	<FileHash>{640E8BD2-7732-17D0-74D6-4F5B099ABD6A}</FileHash>
 </SoundBanksInfo>

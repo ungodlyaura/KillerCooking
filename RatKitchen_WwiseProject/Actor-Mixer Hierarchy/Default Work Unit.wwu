@@ -103,7 +103,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="OvenUse" ID="{B90989DD-2A2F-4431-85DC-671213E4F0D7}">
+								<AudioFileSource Name="OvenUse" ID="{FB259F61-3EE0-4B00-BDD0-71C0850A6CD6}">
 									<Language>SFX</Language>
 									<AudioFile>OvenUse.wav</AudioFile>
 									<MediaIDList>
@@ -112,7 +112,7 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="OvenUse" ID="{B90989DD-2A2F-4431-85DC-671213E4F0D7}" Platform="Linked"/>
+								<ActiveSource Name="OvenUse" ID="{FB259F61-3EE0-4B00-BDD0-71C0850A6CD6}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="PickUp" ID="{9FEBE981-74CC-449E-B62E-F519F77B7E81}" ShortID="854462591">
@@ -407,7 +407,142 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Attack" ID="{A2D43523-8B4C-47DE-8780-DB78A0651E06}" ShortID="656238449"/>
+				<Folder Name="Attack" ID="{A2D43523-8B4C-47DE-8780-DB78A0651E06}" ShortID="656238449">
+					<ChildrenList>
+						<Sound Name="BombExplosion" ID="{2891FF11-AAE9-4433-9EB5-7A91DBBA8D47}" ShortID="751796979">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1AD4B7AC-C610-4E25-A9A7-50C3C5E3DFE6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AAC511A9-568A-4F38-8F70-AEE99E6B261E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BombExplosion" ID="{99B6C0CB-0E90-4819-8558-09641E1D36B0}">
+									<Language>SFX</Language>
+									<AudioFile>BombExplosion.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="999948727"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BombExplosion" ID="{99B6C0CB-0E90-4819-8558-09641E1D36B0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BombFuse" ID="{8A8A530B-49FD-44B1-BA62-EDCA6A00F473}" ShortID="113399874">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1AD4B7AC-C610-4E25-A9A7-50C3C5E3DFE6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AAC511A9-568A-4F38-8F70-AEE99E6B261E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BombFuse" ID="{F8229B30-4325-40DE-A313-46DA6A14D304}">
+									<Language>SFX</Language>
+									<AudioFile>BombFuse.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1023276808"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BombFuse" ID="{F8229B30-4325-40DE-A313-46DA6A14D304}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NukeDefuseButtons" ID="{103ED4E9-4EF1-4DA5-8027-697462CC5353}" ShortID="768981433">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1AD4B7AC-C610-4E25-A9A7-50C3C5E3DFE6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AAC511A9-568A-4F38-8F70-AEE99E6B261E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NukeDefuseButtons" ID="{0B0CCB41-7A58-417C-A797-3F876F9C2845}">
+									<Language>SFX</Language>
+									<AudioFile>NukeDefuseButtons.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="828407512"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="NukeDefuseButtons" ID="{0B0CCB41-7A58-417C-A797-3F876F9C2845}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NukeExplosion" ID="{993AA051-A060-4E43-A62C-FCDFFA8D2D60}" ShortID="957835942">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1AD4B7AC-C610-4E25-A9A7-50C3C5E3DFE6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AAC511A9-568A-4F38-8F70-AEE99E6B261E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NukeExplosion" ID="{C1CE9498-F0F2-4B12-98F3-D071829E73DF}">
+									<Language>SFX</Language>
+									<AudioFile>NukeExplosion.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="979796208"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="NukeExplosion" ID="{C1CE9498-F0F2-4B12-98F3-D071829E73DF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NukeTimer" ID="{AEEE7E2A-623A-4AA8-B3A9-2F63BB08C31D}" ShortID="624248899">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1AD4B7AC-C610-4E25-A9A7-50C3C5E3DFE6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AAC511A9-568A-4F38-8F70-AEE99E6B261E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NukeTimer" ID="{318EB72C-72DE-43C7-AF8F-CAD5BEDCE54E}">
+									<Language>SFX</Language>
+									<AudioFile>NukeTimer.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="945642419"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="NukeTimer" ID="{318EB72C-72DE-43C7-AF8F-CAD5BEDCE54E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FireAttack" ID="{A876D71B-ACA9-40C7-AF5C-ABE660D0D8BD}" ShortID="460488463">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1AD4B7AC-C610-4E25-A9A7-50C3C5E3DFE6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AAC511A9-568A-4F38-8F70-AEE99E6B261E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FireAttack" ID="{3BE7A36E-8C2F-4525-8B55-A1067760CB57}">
+									<Language>SFX</Language>
+									<AudioFile>FireAttack.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="394077887"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FireAttack" ID="{3BE7A36E-8C2F-4525-8B55-A1067760CB57}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="Generic" ID="{FBA6010E-148C-42EC-948E-02C8BC00EB93}" ShortID="135354619"/>
 				<Folder Name="Music" ID="{E1EB6183-46B9-4268-BD62-4B6DAE0B255E}" ShortID="869825140"/>
 			</ChildrenList>

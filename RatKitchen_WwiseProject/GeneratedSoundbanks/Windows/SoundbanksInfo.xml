@@ -23,7 +23,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1500889205" Type="User" GUID="{179767C9-9EE8-46ED-808F-4EA9E6BBF361}" Language="SFX" Hash="{09494B21-1210-8E3E-AE24-416E9C81B8E3}">
+		<SoundBank Id="1500889205" Type="User" GUID="{179767C9-9EE8-46ED-808F-4EA9E6BBF361}" Language="SFX" Hash="{16548799-0B8E-1B68-2E0F-E13883DC5DE3}">
 			<ObjectPath>\SoundBanks\Default Work Unit\RatKing\InteractionBank</ObjectPath>
 			<ShortName>InteractionBank</ShortName>
 			<Path>InteractionBank.bnk</Path>
@@ -102,7 +102,7 @@
 						<ActionTriggerEntry Id="2542736601" Name="ItemSwap" ObjectPath="\Triggers\Default Work Unit\ItemSwap" GUID="{EE5B6476-8276-4BD6-AC1C-4B40D9DD5E99}"/>
 					</ActionTrigger>
 				</Event>
-				<Event Id="3333125560" Name="OvenUse" ObjectPath="\Events\Default Work Unit\Item Interaction\OvenUse" GUID="{F5AC902D-C3F6-4E6D-B07C-24E290DC7880}" DurationType="OneShot" DurationMin="1.6919727" DurationMax="1.6919727">
+				<Event Id="3333125560" Name="OvenUse" ObjectPath="\Events\Default Work Unit\Item Interaction\OvenUse" GUID="{F5AC902D-C3F6-4E6D-B07C-24E290DC7880}" DurationType="OneShot" DurationMin="10.916667" DurationMax="10.916667">
 					<MediaRefs>
 						<MediaRef Id="8324815"/>
 					</MediaRefs>
@@ -279,6 +279,95 @@
 				<Trigger Id="3966601280" Name="PlayerDie" ObjectPath="\Triggers\Default Work Unit\PlayerDie" GUID="{73CD7BB7-B8C0-4B83-BC03-430B52E9E4D2}"/>
 			</Triggers>
 		</SoundBank>
+		<SoundBank Id="3296263334" Type="User" GUID="{3071DE49-0F76-4705-AA86-80E74EBC2DCB}" Language="SFX" Hash="{B36F83A9-CA42-0455-0E05-3AF38020CA98}">
+			<ObjectPath>\SoundBanks\Default Work Unit\RatKing\AttacksBank</ObjectPath>
+			<ShortName>AttacksBank</ShortName>
+			<Path>AttacksBank.bnk</Path>
+			<Media>
+				<File Id="394077887" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FireAttack.wav</ShortName>
+					<CachePath>SFX/FireAttack_818F3B66.wem</CachePath>
+				</File>
+				<File Id="828407512" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NukeDefuseButtons.wav</ShortName>
+					<CachePath>SFX/NukeDefuseButtons_818F3B66.wem</CachePath>
+				</File>
+				<File Id="945642419" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NukeTimer.wav</ShortName>
+					<CachePath>SFX/NukeTimer_818F3B66.wem</CachePath>
+				</File>
+				<File Id="979796208" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NukeExplosion.wav</ShortName>
+					<CachePath>SFX/NukeExplosion_818F3B66.wem</CachePath>
+				</File>
+				<File Id="999948727" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BombExplosion.wav</ShortName>
+					<CachePath>SFX/BombExplosion_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1023276808" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BombFuse.wav</ShortName>
+					<CachePath>SFX/BombFuse_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3910346330" Name="BombExplosion" ObjectPath="\Events\Default Work Unit\Attack\BombExplosion" GUID="{64B51F71-97CE-4D3C-9F89-FB5CE32D9679}" DurationType="OneShot" DurationMin="4.973968" DurationMax="4.973968">
+					<MediaRefs>
+						<MediaRef Id="999948727"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="3910346330" Name="BombExplosion" ObjectPath="\Triggers\Default Work Unit\BombExplosion" GUID="{F875FABC-AA64-4FE2-8977-D01A6A6B77E3}"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="1069250406" Name="BombFuse" ObjectPath="\Events\Default Work Unit\Attack\BombFuse" GUID="{BED4FB59-CF78-4288-A6AD-41C0266829C7}" DurationType="OneShot" DurationMin="7.098957" DurationMax="7.098957">
+					<MediaRefs>
+						<MediaRef Id="1023276808"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="1069250406" Name="BombFuse" ObjectPath="\Triggers\Default Work Unit\BombFuse" GUID="{069A7457-309D-4872-814B-A475366F68C6}"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="3346680257" Name="FireAttack" ObjectPath="\Events\Default Work Unit\Attack\FireAttack" GUID="{1AB5491A-BD47-41C4-820D-3D8C0F379E09}" DurationType="OneShot" DurationMin="8" DurationMax="8">
+					<MediaRefs>
+						<MediaRef Id="394077887"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="3346680257" Name="FireAttack" ObjectPath="\Triggers\Default Work Unit\FireAttack" GUID="{8802099E-5375-4FD7-9AD2-FD7EE92971E4}"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="1991756911" Name="NukeDefuseButtons" ObjectPath="\Events\Default Work Unit\Attack\NukeDefuseButtons" GUID="{5C5495D7-3E4F-4809-AA9D-D74D15CB61C5}" DurationType="OneShot" DurationMin="6.7634015" DurationMax="6.7634015">
+					<MediaRefs>
+						<MediaRef Id="828407512"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="1991756911" Name="NukeDefuseButtons" ObjectPath="\Triggers\Default Work Unit\NukeDefuseButtons" GUID="{E005AE1C-0646-4A6F-9B5F-09BC1BB0D916}"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2376139375" Name="NukeExplosion" ObjectPath="\Events\Default Work Unit\Attack\NukeExplosion" GUID="{C0F17E4D-908C-4D7E-A27D-8C5F5803BCD6}" DurationType="OneShot" DurationMin="4.130204" DurationMax="4.130204">
+					<MediaRefs>
+						<MediaRef Id="979796208"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2376139375" Name="NukeExplosion" ObjectPath="\Triggers\Default Work Unit\NukeExplosion" GUID="{F630B9D5-B39F-4C1C-B14F-FBD0FD0DD30A}"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="407402393" Name="NukeTimer" ObjectPath="\Events\Default Work Unit\Attack\NukeTimer" GUID="{A9201954-5751-42DB-9579-84D9C5DB431B}" DurationType="OneShot" DurationMin="8" DurationMax="8">
+					<MediaRefs>
+						<MediaRef Id="945642419"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="407402393" Name="NukeTimer" ObjectPath="\Triggers\Default Work Unit\NukeTimer" GUID="{99ECB132-1796-4FBA-8EC9-E415540CA463}"/>
+					</ActionTrigger>
+				</Event>
+			</Events>
+			<Triggers>
+				<Trigger Id="407402393" Name="NukeTimer" ObjectPath="\Triggers\Default Work Unit\NukeTimer" GUID="{99ECB132-1796-4FBA-8EC9-E415540CA463}"/>
+				<Trigger Id="1069250406" Name="BombFuse" ObjectPath="\Triggers\Default Work Unit\BombFuse" GUID="{069A7457-309D-4872-814B-A475366F68C6}"/>
+				<Trigger Id="1991756911" Name="NukeDefuseButtons" ObjectPath="\Triggers\Default Work Unit\NukeDefuseButtons" GUID="{E005AE1C-0646-4A6F-9B5F-09BC1BB0D916}"/>
+				<Trigger Id="2376139375" Name="NukeExplosion" ObjectPath="\Triggers\Default Work Unit\NukeExplosion" GUID="{F630B9D5-B39F-4C1C-B14F-FBD0FD0DD30A}"/>
+				<Trigger Id="3346680257" Name="FireAttack" ObjectPath="\Triggers\Default Work Unit\FireAttack" GUID="{8802099E-5375-4FD7-9AD2-FD7EE92971E4}"/>
+				<Trigger Id="3910346330" Name="BombExplosion" ObjectPath="\Triggers\Default Work Unit\BombExplosion" GUID="{F875FABC-AA64-4FE2-8977-D01A6A6B77E3}"/>
+			</Triggers>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B5EEEF38-D217-8D2D-38BF-3A13B88226C9}</FileHash>
+	<FileHash>{DAF830E8-E68B-A9C4-7AC5-F590EBC0C7C5}</FileHash>
 </SoundBanksInfo>

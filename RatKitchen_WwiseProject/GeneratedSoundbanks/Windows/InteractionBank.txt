@@ -11,7 +11,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3978245845	PickUp			\Default Work Unit\Item Interaction\PickUp	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	8324815	OvenUse	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\OvenUse_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\OvenUse		149376
+	8324815	OvenUse	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\OvenUse_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\OvenUse		962994
 	75838021	ChoppingBoard	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\ChoppingBoard_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\ChoppingBoard		151344
 	228228570	CustomerOrder	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\CustomerOrder_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\CustomerOrder		84012
 	245379904	ServeOrder	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\ServeOrder_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\ServeOrder		155282
