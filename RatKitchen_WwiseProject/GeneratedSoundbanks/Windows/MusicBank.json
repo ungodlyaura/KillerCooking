@@ -1,0 +1,90 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3017428748",
+    "Type": "User",
+    "GUID": "{5FF27993-6B11-442F-B790-F60573BF655B}",
+    "Language": "SFX",
+    "Hash": "{0AF80164-6039-9D04-FBF5-8DA65C2CA79B}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\RatKing\\MusicBank",
+    "ShortName": "MusicBank",
+    "Path": "MusicBank.bnk",
+    "Media": [
+     {
+      "Id": "836927039",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UpgradeShopMusic.wav",
+      "CachePath": "SFX/UpgradeShopMusic_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3864412068",
+      "Name": "UpgradeMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\UpgradeMusic",
+      "GUID": "{5FB137B3-257D-49D3-9101-31DDD1E6E9FD}",
+      "DurationType": "OneShot",
+      "DurationMin": "120.17389",
+      "DurationMax": "120.17389",
+      "MediaRefs": [
+       {
+        "Id": "836927039"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "GroupId": "3991942870",
+        "Id": "1323090623",
+        "Name": "Upgrade",
+        "ObjectPath": "\\States\\Default Work Unit\\Music States\\Music\\Upgrade",
+        "GUID": "{6B478A4E-12C5-4030-AC34-36863CB35032}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\States\\Default Work Unit\\Music States\\Music",
+      "GUID": "{B20636C5-FEBC-42CB-A5BF-EFDAE6342DEA}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Music States\\Music\\None",
+        "GUID": "{0ED66880-4837-4E94-BDEA-0804307BFBAC}"
+       },
+       {
+        "Id": "1323090623",
+        "Name": "Upgrade",
+        "ObjectPath": "\\States\\Default Work Unit\\Music States\\Music\\Upgrade",
+        "GUID": "{6B478A4E-12C5-4030-AC34-36863CB35032}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\Default Work Unit\\Music States\\Music\\Menu",
+        "GUID": "{B203CDBA-5E24-4144-975F-8484E339FA82}"
+       },
+       {
+        "Id": "2782712965",
+        "Name": "Level",
+        "ObjectPath": "\\States\\Default Work Unit\\Music States\\Music\\Level",
+        "GUID": "{AD6C7B32-80E3-40EE-9097-05949F518C6A}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{3541BA7B-0805-8A89-ADBB-2D0F2043F130}"
+ }
+}

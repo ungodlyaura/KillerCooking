@@ -607,6 +607,31 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Music" ID="{CF6C5AA3-6565-4B36-90CE-02E279EEA3DD}" ShortID="53134679">
+					<ChildrenList>
+						<Event Name="UpgradeMusic" ID="{5FB137B3-257D-49D3-9101-31DDD1E6E9FD}">
+							<ChildrenList>
+								<Action Name="" ID="{4DA6E7F7-095B-4277-8A72-60D201452BE7}" ShortID="123419890">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Upgrade" ID="{6B478A4E-12C5-4030-AC34-36863CB35032}" WorkUnitID="{5EDDEEC3-D0FE-4BC6-83EC-F61AAA57E588}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5C5F12F6-E4BC-41C7-9D73-E2360449A466}" ShortID="282907270">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UpgradeMusic" ID="{5547F552-DF04-4C40-8116-02519AF5F80B}" WorkUnitID="{DCDC760A-95FE-4AB5-9BD6-03819FC71A99}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

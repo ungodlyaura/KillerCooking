@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5EDDEEC3-D0FE-4BC6-83EC-F61AAA57E588}" SchemaVersion="119">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{5EDDEEC3-D0FE-4BC6-83EC-F61AAA57E588}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5EDDEEC3-D0FE-4BC6-83EC-F61AAA57E588}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Music States" ID="{D836A203-E0C6-471A-AF49-429612F8024C}" ShortID="907837542">
+					<ChildrenList>
+						<StateGroup Name="Music" ID="{B20636C5-FEBC-42CB-A5BF-EFDAE6342DEA}">
+							<ChildrenList>
+								<State Name="None" ID="{0ED66880-4837-4E94-BDEA-0804307BFBAC}"/>
+								<State Name="Upgrade" ID="{6B478A4E-12C5-4030-AC34-36863CB35032}"/>
+								<State Name="Level" ID="{AD6C7B32-80E3-40EE-9097-05949F518C6A}"/>
+								<State Name="Menu" ID="{B203CDBA-5E24-4144-975F-8484E339FA82}"/>
+							</ChildrenList>
+							<TransitionList>
+								<Transition>
+									<StartState Name="Level" ID="{AD6C7B32-80E3-40EE-9097-05949F518C6A}"/>
+									<EndState Name="Upgrade" ID="{6B478A4E-12C5-4030-AC34-36863CB35032}"/>
+									<Time>1</Time>
+									<IsShared>true</IsShared>
+								</Transition>
+								<Transition>
+									<StartState Name="Menu" ID="{B203CDBA-5E24-4144-975F-8484E339FA82}"/>
+									<EndState Name="Level" ID="{AD6C7B32-80E3-40EE-9097-05949F518C6A}"/>
+									<Time>1</Time>
+									<IsShared>true</IsShared>
+								</Transition>
+								<Transition>
+									<StartState Name="Upgrade" ID="{6B478A4E-12C5-4030-AC34-36863CB35032}"/>
+									<EndState Name="Menu" ID="{B203CDBA-5E24-4144-975F-8484E339FA82}"/>
+									<Time>1</Time>
+									<IsShared>true</IsShared>
+								</Transition>
+							</TransitionList>
+						</StateGroup>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

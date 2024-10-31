@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3864412068	UpgradeMusic			\Default Work Unit\Music\UpgradeMusic	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	836927039	UpgradeShopMusic	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\UpgradeShopMusic_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\UpgradeMusic\UpgradeShopMusic		3387024
+

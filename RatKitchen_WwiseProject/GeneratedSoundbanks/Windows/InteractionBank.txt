@@ -11,14 +11,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	3978245845	PickUp			\Default Work Unit\Item Interaction\PickUp	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	8324815	OvenUse	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\OvenUse_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\OvenUse		962994
+	8324815	OvenUse	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\OvenUse_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\OvenUse		962994
 	75838021	ChoppingBoard	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\ChoppingBoard_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\ChoppingBoard		151344
 	228228570	CustomerOrder	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\CustomerOrder_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\CustomerOrder		84012
 	245379904	ServeOrder	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\ServeOrder_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\ServeOrder		155282
-	487762977	GrillFrying	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\GrillFrying_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\GrillFrying		906162
+	487762977	GrillFrying	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\GrillFrying_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\GrillFrying		906162
 	536125655	WaterPump	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\WaterPump_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\WaterPump		67476
 	599760259	PutDown	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\PutDown_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\PutDown		75350
 	779982843	PickUp	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\PickUp_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\PickUp		58420
 	856389188	ItemSwap	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\ItemSwap_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\ItemSwap		59600
-	864447192	WaterBoiling	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\WaterBoiling_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\WaterBoiling		2673312
+	864447192	WaterBoiling	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\WaterBoiling_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\WaterBoiling		2673312
 
