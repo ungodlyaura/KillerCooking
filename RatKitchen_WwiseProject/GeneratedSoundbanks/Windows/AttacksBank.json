@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3071DE49-0F76-4705-AA86-80E74EBC2DCB}",
     "Language": "SFX",
-    "Hash": "{B36F83A9-CA42-0455-0E05-3AF38020CA98}",
+    "Hash": "{73AA50FA-6536-E1F3-5FF6-3D3CBF79E863}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\RatKing\\AttacksBank",
     "ShortName": "AttacksBank",
     "Path": "AttacksBank.bnk",
@@ -37,7 +37,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "NukeTimer.wav",
-      "CachePath": "SFX/NukeTimer_818F3B66.wem"
+      "CachePath": "SFX/NukeTimer_FBC78EF0.wem"
      },
      {
       "Id": "979796208",
@@ -180,9 +180,7 @@
       "Name": "NukeTimer",
       "ObjectPath": "\\Events\\Default Work Unit\\Attack\\NukeTimer",
       "GUID": "{A9201954-5751-42DB-9579-84D9C5DB431B}",
-      "DurationType": "OneShot",
-      "DurationMin": "8",
-      "DurationMax": "8",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "945642419"
@@ -238,6 +236,6 @@
     ]
    }
   ],
-  "FileHash": "{AB4BECC0-0D0C-C5A2-F3BF-475F829BEE47}"
+  "FileHash": "{59384D55-612D-B518-97C3-803E80BE95D7}"
  }
 }

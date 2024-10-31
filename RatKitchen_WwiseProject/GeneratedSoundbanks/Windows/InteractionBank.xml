@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1500889205" Type="User" GUID="{179767C9-9EE8-46ED-808F-4EA9E6BBF361}" Language="SFX" Hash="{16548799-0B8E-1B68-2E0F-E13883DC5DE3}">
+		<SoundBank Id="1500889205" Type="User" GUID="{179767C9-9EE8-46ED-808F-4EA9E6BBF361}" Language="SFX" Hash="{46EDA5A8-9279-7491-DBF6-24B76484AB35}">
 			<ObjectPath>\SoundBanks\Default Work Unit\RatKing\InteractionBank</ObjectPath>
 			<ShortName>InteractionBank</ShortName>
 			<Path>InteractionBank.bnk</Path>
 			<Media>
 				<File Id="8324815" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>OvenUse.wav</ShortName>
-					<CachePath>SFX/OvenUse_818F3B66.wem</CachePath>
+					<CachePath>SFX/OvenUse_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="75838021" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ChoppingBoard.wav</ShortName>
@@ -24,7 +24,7 @@
 				</File>
 				<File Id="487762977" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GrillFrying.wav</ShortName>
-					<CachePath>SFX/GrillFrying_818F3B66.wem</CachePath>
+					<CachePath>SFX/GrillFrying_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="536125655" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WaterPump.wav</ShortName>
@@ -44,7 +44,7 @@
 				</File>
 				<File Id="864447192" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WaterBoiling.wav</ShortName>
-					<CachePath>SFX/WaterBoiling_818F3B66.wem</CachePath>
+					<CachePath>SFX/WaterBoiling_FBC78EF0.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -64,7 +64,7 @@
 						<ActionTriggerEntry Id="2230847791" Name="CustomerOrder" ObjectPath="\Triggers\Default Work Unit\CustomerOrder" GUID="{82726AA2-C771-4B69-BC87-B8375D02AC4E}"/>
 					</ActionTrigger>
 				</Event>
-				<Event Id="3253139568" Name="GrillFrying" ObjectPath="\Events\Default Work Unit\Item Interaction\GrillFrying" GUID="{60932ADA-B559-43CA-BF1D-0B2F99C4B7AF}" DurationType="OneShot" DurationMin="10.272313" DurationMax="10.272313">
+				<Event Id="3253139568" Name="GrillFrying" ObjectPath="\Events\Default Work Unit\Item Interaction\GrillFrying" GUID="{60932ADA-B559-43CA-BF1D-0B2F99C4B7AF}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="487762977"/>
 					</MediaRefs>
@@ -80,7 +80,7 @@
 						<ActionTriggerEntry Id="2542736601" Name="ItemSwap" ObjectPath="\Triggers\Default Work Unit\ItemSwap" GUID="{EE5B6476-8276-4BD6-AC1C-4B40D9DD5E99}"/>
 					</ActionTrigger>
 				</Event>
-				<Event Id="3333125560" Name="OvenUse" ObjectPath="\Events\Default Work Unit\Item Interaction\OvenUse" GUID="{F5AC902D-C3F6-4E6D-B07C-24E290DC7880}" DurationType="OneShot" DurationMin="10.916667" DurationMax="10.916667">
+				<Event Id="3333125560" Name="OvenUse" ObjectPath="\Events\Default Work Unit\Item Interaction\OvenUse" GUID="{F5AC902D-C3F6-4E6D-B07C-24E290DC7880}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="8324815"/>
 					</MediaRefs>
@@ -112,7 +112,7 @@
 						<ActionTriggerEntry Id="1153444610" Name="ServeOrder" ObjectPath="\Triggers\Default Work Unit\ServeOrder" GUID="{43814311-8A02-47C2-86F6-7B4E106296E6}"/>
 					</ActionTrigger>
 				</Event>
-				<Event Id="2359483012" Name="WaterBoiling" ObjectPath="\Events\Default Work Unit\Item Interaction\WaterBoiling" GUID="{0297777B-4BF0-440F-BD33-AECEE8EBD820}" DurationType="OneShot" DurationMin="30.308027" DurationMax="30.308027">
+				<Event Id="2359483012" Name="WaterBoiling" ObjectPath="\Events\Default Work Unit\Item Interaction\WaterBoiling" GUID="{0297777B-4BF0-440F-BD33-AECEE8EBD820}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="864447192"/>
 					</MediaRefs>
@@ -143,5 +143,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{640E8BD2-7732-17D0-74D6-4F5B099ABD6A}</FileHash>
+	<FileHash>{C959C764-3D2A-1382-1E7B-AD2A93CC39E1}</FileHash>
 </SoundBanksInfo>

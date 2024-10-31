@@ -50,6 +50,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="GrillFrying" ID="{851BBE55-608A-482E-8DE2-6A1C02A135C7}" ShortID="458959978">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1AD4B7AC-C610-4E25-A9A7-50C3C5E3DFE6}"/>
@@ -94,6 +97,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="OvenUse" ID="{A413ECA9-2C99-4CBF-9C27-E929CB8C8B68}" ShortID="218783106">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1AD4B7AC-C610-4E25-A9A7-50C3C5E3DFE6}"/>
@@ -182,6 +188,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="WaterBoiling" ID="{AF53364C-F7F7-4208-BF73-1EDAC21CB48F}" ShortID="800657185">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1AD4B7AC-C610-4E25-A9A7-50C3C5E3DFE6}"/>
@@ -498,6 +507,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="NukeTimer" ID="{AEEE7E2A-623A-4AA8-B3A9-2F63BB08C31D}" ShortID="624248899">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1AD4B7AC-C610-4E25-A9A7-50C3C5E3DFE6}"/>
@@ -635,7 +647,6 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Music" ID="{E1EB6183-46B9-4268-BD62-4B6DAE0B255E}" ShortID="869825140"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

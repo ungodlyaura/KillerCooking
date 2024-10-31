@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3296263334" Type="User" GUID="{3071DE49-0F76-4705-AA86-80E74EBC2DCB}" Language="SFX" Hash="{B36F83A9-CA42-0455-0E05-3AF38020CA98}">
+		<SoundBank Id="3296263334" Type="User" GUID="{3071DE49-0F76-4705-AA86-80E74EBC2DCB}" Language="SFX" Hash="{73AA50FA-6536-E1F3-5FF6-3D3CBF79E863}">
 			<ObjectPath>\SoundBanks\Default Work Unit\RatKing\AttacksBank</ObjectPath>
 			<ShortName>AttacksBank</ShortName>
 			<Path>AttacksBank.bnk</Path>
@@ -16,7 +16,7 @@
 				</File>
 				<File Id="945642419" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>NukeTimer.wav</ShortName>
-					<CachePath>SFX/NukeTimer_818F3B66.wem</CachePath>
+					<CachePath>SFX/NukeTimer_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="979796208" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>NukeExplosion.wav</ShortName>
@@ -72,7 +72,7 @@
 						<ActionTriggerEntry Id="2376139375" Name="NukeExplosion" ObjectPath="\Triggers\Default Work Unit\NukeExplosion" GUID="{F630B9D5-B39F-4C1C-B14F-FBD0FD0DD30A}"/>
 					</ActionTrigger>
 				</Event>
-				<Event Id="407402393" Name="NukeTimer" ObjectPath="\Events\Default Work Unit\Attack\NukeTimer" GUID="{A9201954-5751-42DB-9579-84D9C5DB431B}" DurationType="OneShot" DurationMin="8" DurationMax="8">
+				<Event Id="407402393" Name="NukeTimer" ObjectPath="\Events\Default Work Unit\Attack\NukeTimer" GUID="{A9201954-5751-42DB-9579-84D9C5DB431B}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="945642419"/>
 					</MediaRefs>
@@ -91,5 +91,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{210ED2E5-75BA-B2B2-390C-231900BC4ADB}</FileHash>
+	<FileHash>{DCA1D61D-5C4A-1CFE-6C31-D40169A7D401}</FileHash>
 </SoundBanksInfo>
