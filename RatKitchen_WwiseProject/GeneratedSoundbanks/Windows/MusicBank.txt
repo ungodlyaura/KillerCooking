@@ -1,6 +1,31 @@
 Event	ID	Name			Wwise Object Path	Notes
-	3864412068	UpgradeMusic			\Default Work Unit\Music\UpgradeMusic	
+	3991942870	Music			\Default Work Unit\Music\Music	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	89505537	Gameplay			\Default Work Unit\Gameplay	
+
+Switch	ID	Name	Switch Group			Notes
+	898652363	UpgradeShop	Gameplay			
+	2607556080	Menu	Gameplay			
+	2782712965	Level	Gameplay			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	282193874	LevelMusicChange			\Default Work Unit\Music States\LevelOST\LevelMusicChange	
+
+State	ID	Name	State Group			Notes
+	242692232	Five_Minute	LevelMusicChange			
+	748895195	None	LevelMusicChange			
+	1440402000	Two_Minute	LevelMusicChange			
+	1458938758	Three_Minute	LevelMusicChange			
+	1615472228	Four_Minute	LevelMusicChange			
+	1835187958	One_Minute	LevelMusicChange			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	836927039	UpgradeShopMusic	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\UpgradeShopMusic_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\UpgradeMusic\UpgradeShopMusic		3387024
+	7333943	LevelOST5	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\LevelOST5_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitches\LevelSoundSwitch\LevelSoundPlaylist\Variance_04\LevelOST5		6773904
+	86041373	LevelOST1	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\LevelOST1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitches\LevelSoundSwitch\LevelSoundPlaylist\Variance\LevelOST1		3387024
+	356897637	LevelOST2	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\LevelOST2_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitches\LevelSoundSwitch\LevelSoundPlaylist\Variance_01\LevelOST2		3387024
+	400694999	MenuMusic	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\MenuMusic_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitches\LevelSoundSwitch\MenuSound\MenuMusic\MenuMusic		2822544
+	836927039	UpgradeShopMusic	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\UpgradeShopMusic_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitches\UpgradeSound\UpgradeMusic\UpgradeShopMusic		3387024
+	887323194	LevelOST4	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\LevelOST4_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitches\LevelSoundSwitch\LevelSoundPlaylist\Variance_03\LevelOST4		6773904
+	972259698	LevelOST3	C:\Users\Dylan C\Documents\KillerCooking\RatKitchen_WwiseProject\.cache\Windows\SFX\LevelOST3_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicSwitches\LevelSoundSwitch\LevelSoundPlaylist\Variance_02\LevelOST3		6773904
 

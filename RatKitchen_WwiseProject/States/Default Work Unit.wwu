@@ -5,34 +5,49 @@
 			<ChildrenList>
 				<Folder Name="Music States" ID="{D836A203-E0C6-471A-AF49-429612F8024C}" ShortID="907837542">
 					<ChildrenList>
-						<StateGroup Name="Music" ID="{B20636C5-FEBC-42CB-A5BF-EFDAE6342DEA}">
+						<Folder Name="LevelOST" ID="{BC74F8D1-6540-496D-8FF3-EDC0E5E095CA}" ShortID="1049341298">
 							<ChildrenList>
-								<State Name="None" ID="{0ED66880-4837-4E94-BDEA-0804307BFBAC}"/>
-								<State Name="Upgrade" ID="{6B478A4E-12C5-4030-AC34-36863CB35032}"/>
-								<State Name="Level" ID="{AD6C7B32-80E3-40EE-9097-05949F518C6A}"/>
-								<State Name="Menu" ID="{B203CDBA-5E24-4144-975F-8484E339FA82}"/>
+								<StateGroup Name="LevelMusicChange" ID="{96F4A1CF-5F76-4E0A-9A1E-7503045D8C08}">
+									<PropertyList>
+										<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ChildrenList>
+										<State Name="None" ID="{0B7DAEAF-59B3-43B0-9793-E871F6542CC7}"/>
+										<State Name="One_Minute" ID="{D1BD327A-F1D6-4F9F-8663-7656D4373DA7}"/>
+										<State Name="Two_Minute" ID="{E341B048-638F-4837-A2EB-B1E2CA0CB864}"/>
+										<State Name="Three_Minute" ID="{DCD97619-6D23-4F58-A41B-EE5F67622197}"/>
+										<State Name="Four_Minute" ID="{92EFA3C4-1059-4333-9245-37A32D59F3AF}"/>
+										<State Name="Five_Minute" ID="{BC982D1D-BD37-495A-B626-2F82DA10C5A0}"/>
+									</ChildrenList>
+									<TransitionList>
+										<Transition>
+											<StartState Name="One_Minute" ID="{D1BD327A-F1D6-4F9F-8663-7656D4373DA7}"/>
+											<EndState Name="Two_Minute" ID="{E341B048-638F-4837-A2EB-B1E2CA0CB864}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="Two_Minute" ID="{E341B048-638F-4837-A2EB-B1E2CA0CB864}"/>
+											<EndState Name="Three_Minute" ID="{DCD97619-6D23-4F58-A41B-EE5F67622197}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="Three_Minute" ID="{DCD97619-6D23-4F58-A41B-EE5F67622197}"/>
+											<EndState Name="Four_Minute" ID="{92EFA3C4-1059-4333-9245-37A32D59F3AF}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+										<Transition>
+											<StartState Name="Four_Minute" ID="{92EFA3C4-1059-4333-9245-37A32D59F3AF}"/>
+											<EndState Name="Five_Minute" ID="{BC982D1D-BD37-495A-B626-2F82DA10C5A0}"/>
+											<Time>1</Time>
+											<IsShared>false</IsShared>
+										</Transition>
+									</TransitionList>
+								</StateGroup>
 							</ChildrenList>
-							<TransitionList>
-								<Transition>
-									<StartState Name="Level" ID="{AD6C7B32-80E3-40EE-9097-05949F518C6A}"/>
-									<EndState Name="Upgrade" ID="{6B478A4E-12C5-4030-AC34-36863CB35032}"/>
-									<Time>1</Time>
-									<IsShared>true</IsShared>
-								</Transition>
-								<Transition>
-									<StartState Name="Menu" ID="{B203CDBA-5E24-4144-975F-8484E339FA82}"/>
-									<EndState Name="Level" ID="{AD6C7B32-80E3-40EE-9097-05949F518C6A}"/>
-									<Time>1</Time>
-									<IsShared>true</IsShared>
-								</Transition>
-								<Transition>
-									<StartState Name="Upgrade" ID="{6B478A4E-12C5-4030-AC34-36863CB35032}"/>
-									<EndState Name="Menu" ID="{B203CDBA-5E24-4144-975F-8484E339FA82}"/>
-									<Time>1</Time>
-									<IsShared>true</IsShared>
-								</Transition>
-							</TransitionList>
-						</StateGroup>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

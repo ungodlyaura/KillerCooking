@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{C84D7D6B-A1B0-7AE7-16BD-5D34628F928D}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{EEF43F3E-87AF-6F67-DE2C-295D6562EF5F}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -22,16 +22,30 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="1395127868" Name="GameTime" ObjectPath="\Game Parameters\Default Work Unit\GameTime" GUID="{FCB84C9A-44DD-4ECA-AF73-C77165843D41}"/>
+			</GameParameters>
 			<StateGroups>
-				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music States\Music" GUID="{B20636C5-FEBC-42CB-A5BF-EFDAE6342DEA}">
+				<StateGroup Id="282193874" Name="LevelMusicChange" ObjectPath="\States\Default Work Unit\Music States\LevelOST\LevelMusicChange" GUID="{96F4A1CF-5F76-4E0A-9A1E-7503045D8C08}">
 					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music States\Music\None" GUID="{0ED66880-4837-4E94-BDEA-0804307BFBAC}"/>
-						<State Id="1323090623" Name="Upgrade" ObjectPath="\States\Default Work Unit\Music States\Music\Upgrade" GUID="{6B478A4E-12C5-4030-AC34-36863CB35032}"/>
-						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Music States\Music\Menu" GUID="{B203CDBA-5E24-4144-975F-8484E339FA82}"/>
-						<State Id="2782712965" Name="Level" ObjectPath="\States\Default Work Unit\Music States\Music\Level" GUID="{AD6C7B32-80E3-40EE-9097-05949F518C6A}"/>
+						<State Id="242692232" Name="Five_Minute" ObjectPath="\States\Default Work Unit\Music States\LevelOST\LevelMusicChange\Five_Minute" GUID="{BC982D1D-BD37-495A-B626-2F82DA10C5A0}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music States\LevelOST\LevelMusicChange\None" GUID="{0B7DAEAF-59B3-43B0-9793-E871F6542CC7}"/>
+						<State Id="1440402000" Name="Two_Minute" ObjectPath="\States\Default Work Unit\Music States\LevelOST\LevelMusicChange\Two_Minute" GUID="{E341B048-638F-4837-A2EB-B1E2CA0CB864}"/>
+						<State Id="1458938758" Name="Three_Minute" ObjectPath="\States\Default Work Unit\Music States\LevelOST\LevelMusicChange\Three_Minute" GUID="{DCD97619-6D23-4F58-A41B-EE5F67622197}"/>
+						<State Id="1615472228" Name="Four_Minute" ObjectPath="\States\Default Work Unit\Music States\LevelOST\LevelMusicChange\Four_Minute" GUID="{92EFA3C4-1059-4333-9245-37A32D59F3AF}"/>
+						<State Id="1835187958" Name="One_Minute" ObjectPath="\States\Default Work Unit\Music States\LevelOST\LevelMusicChange\One_Minute" GUID="{D1BD327A-F1D6-4F9F-8663-7656D4373DA7}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="89505537" Name="Gameplay" ObjectPath="\Switches\Default Work Unit\Gameplay" GUID="{53123C37-35CA-4F42-BEBD-18A2EEB7D6BA}">
+					<Switches>
+						<Switch Id="898652363" Name="UpgradeShop" ObjectPath="\Switches\Default Work Unit\Gameplay\UpgradeShop" GUID="{221AFD79-4F15-471A-9E86-B141FD1B8BFC}"/>
+						<Switch Id="2607556080" Name="Menu" ObjectPath="\Switches\Default Work Unit\Gameplay\Menu" GUID="{90DD00EB-CEB5-418F-810D-EA8774EB287B}"/>
+						<Switch Id="2782712965" Name="Level" ObjectPath="\Switches\Default Work Unit\Gameplay\Level" GUID="{473A6D7F-4E0E-4FAB-9B50-E9FA3DED1C0F}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="1500889205" Type="User" GUID="{179767C9-9EE8-46ED-808F-4EA9E6BBF361}" Language="SFX" Hash="{46EDA5A8-9279-7491-DBF6-24B76484AB35}">
 			<ObjectPath>\SoundBanks\Default Work Unit\RatKing\InteractionBank</ObjectPath>
@@ -289,36 +303,144 @@
 				<Trigger Id="3966601280" Name="PlayerDie" ObjectPath="\Triggers\Default Work Unit\PlayerDie" GUID="{73CD7BB7-B8C0-4B83-BC03-430B52E9E4D2}"/>
 			</Triggers>
 		</SoundBank>
-		<SoundBank Id="3017428748" Type="User" GUID="{5FF27993-6B11-442F-B790-F60573BF655B}" Language="SFX" Hash="{0AF80164-6039-9D04-FBF5-8DA65C2CA79B}">
+		<SoundBank Id="3017428748" Type="User" GUID="{5FF27993-6B11-442F-B790-F60573BF655B}" Language="SFX" Hash="{6586009A-F5FE-2D55-0C48-10D58BA66F2B}">
 			<ObjectPath>\SoundBanks\Default Work Unit\RatKing\MusicBank</ObjectPath>
 			<ShortName>MusicBank</ShortName>
 			<Path>MusicBank.bnk</Path>
 			<Media>
+				<File Id="7333943" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LevelOST5.wav</ShortName>
+					<CachePath>SFX/LevelOST5_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="86041373" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LevelOST1.wav</ShortName>
+					<CachePath>SFX/LevelOST1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="356897637" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LevelOST2.wav</ShortName>
+					<CachePath>SFX/LevelOST2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="400694999" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MenuMusic.wav</ShortName>
+					<CachePath>SFX/MenuMusic_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="836927039" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UpgradeShopMusic.wav</ShortName>
 					<CachePath>SFX/UpgradeShopMusic_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="887323194" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LevelOST4.wav</ShortName>
+					<CachePath>SFX/LevelOST4_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="972259698" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LevelOST3.wav</ShortName>
+					<CachePath>SFX/LevelOST3_FBC78EF0.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="3864412068" Name="UpgradeMusic" ObjectPath="\Events\Default Work Unit\Music\UpgradeMusic" GUID="{5FB137B3-257D-49D3-9101-31DDD1E6E9FD}" DurationType="OneShot" DurationMin="120.17389" DurationMax="120.17389">
-					<MediaRefs>
-						<MediaRef Id="836927039"/>
-					</MediaRefs>
-					<ActionSetState>
-						<ActionSetStateEntry GroupId="3991942870" Id="1323090623" Name="Upgrade" ObjectPath="\States\Default Work Unit\Music States\Music\Upgrade" GUID="{6B478A4E-12C5-4030-AC34-36863CB35032}"/>
-					</ActionSetState>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music\Music" GUID="{7E4B0F1A-44BF-4E0D-97DA-CD82AB87F864}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="282193874" Id="1835187958" GUID="{D1BD327A-F1D6-4F9F-8663-7656D4373DA7}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="89505537" Id="2782712965" GUID="{473A6D7F-4E0E-4FAB-9B50-E9FA3DED1C0F}"/>
+									<MediaRefs>
+										<MediaRef Id="86041373"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="282193874" Id="1440402000" GUID="{E341B048-638F-4837-A2EB-B1E2CA0CB864}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="89505537" Id="2782712965" GUID="{473A6D7F-4E0E-4FAB-9B50-E9FA3DED1C0F}"/>
+									<MediaRefs>
+										<MediaRef Id="356897637"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="282193874" Id="1458938758" GUID="{DCD97619-6D23-4F58-A41B-EE5F67622197}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="89505537" Id="2782712965" GUID="{473A6D7F-4E0E-4FAB-9B50-E9FA3DED1C0F}"/>
+									<MediaRefs>
+										<MediaRef Id="972259698"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="282193874" Id="1615472228" GUID="{92EFA3C4-1059-4333-9245-37A32D59F3AF}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="89505537" Id="2782712965" GUID="{473A6D7F-4E0E-4FAB-9B50-E9FA3DED1C0F}"/>
+									<MediaRefs>
+										<MediaRef Id="887323194"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="282193874" Id="242692232" GUID="{BC982D1D-BD37-495A-B626-2F82DA10C5A0}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="89505537" Id="2782712965" GUID="{473A6D7F-4E0E-4FAB-9B50-E9FA3DED1C0F}"/>
+									<MediaRefs>
+										<MediaRef Id="7333943"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="282193874" Id="748895195" GUID="{0B7DAEAF-59B3-43B0-9793-E871F6542CC7}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="89505537" Id="898652363" GUID="{221AFD79-4F15-471A-9E86-B141FD1B8BFC}"/>
+									<MediaRefs>
+										<MediaRef Id="836927039"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="282193874" Id="748895195" GUID="{0B7DAEAF-59B3-43B0-9793-E871F6542CC7}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="89505537" Id="2607556080" GUID="{90DD00EB-CEB5-418F-810D-EA8774EB287B}"/>
+									<MediaRefs>
+										<MediaRef Id="400694999"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 			</Events>
 			<StateGroups>
-				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music States\Music" GUID="{B20636C5-FEBC-42CB-A5BF-EFDAE6342DEA}">
+				<StateGroup Id="282193874" Name="LevelMusicChange" ObjectPath="\States\Default Work Unit\Music States\LevelOST\LevelMusicChange" GUID="{96F4A1CF-5F76-4E0A-9A1E-7503045D8C08}">
 					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music States\Music\None" GUID="{0ED66880-4837-4E94-BDEA-0804307BFBAC}"/>
-						<State Id="1323090623" Name="Upgrade" ObjectPath="\States\Default Work Unit\Music States\Music\Upgrade" GUID="{6B478A4E-12C5-4030-AC34-36863CB35032}"/>
-						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Music States\Music\Menu" GUID="{B203CDBA-5E24-4144-975F-8484E339FA82}"/>
-						<State Id="2782712965" Name="Level" ObjectPath="\States\Default Work Unit\Music States\Music\Level" GUID="{AD6C7B32-80E3-40EE-9097-05949F518C6A}"/>
+						<State Id="242692232" Name="Five_Minute" ObjectPath="\States\Default Work Unit\Music States\LevelOST\LevelMusicChange\Five_Minute" GUID="{BC982D1D-BD37-495A-B626-2F82DA10C5A0}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music States\LevelOST\LevelMusicChange\None" GUID="{0B7DAEAF-59B3-43B0-9793-E871F6542CC7}"/>
+						<State Id="1440402000" Name="Two_Minute" ObjectPath="\States\Default Work Unit\Music States\LevelOST\LevelMusicChange\Two_Minute" GUID="{E341B048-638F-4837-A2EB-B1E2CA0CB864}"/>
+						<State Id="1458938758" Name="Three_Minute" ObjectPath="\States\Default Work Unit\Music States\LevelOST\LevelMusicChange\Three_Minute" GUID="{DCD97619-6D23-4F58-A41B-EE5F67622197}"/>
+						<State Id="1615472228" Name="Four_Minute" ObjectPath="\States\Default Work Unit\Music States\LevelOST\LevelMusicChange\Four_Minute" GUID="{92EFA3C4-1059-4333-9245-37A32D59F3AF}"/>
+						<State Id="1835187958" Name="One_Minute" ObjectPath="\States\Default Work Unit\Music States\LevelOST\LevelMusicChange\One_Minute" GUID="{D1BD327A-F1D6-4F9F-8663-7656D4373DA7}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="89505537" Name="Gameplay" ObjectPath="\Switches\Default Work Unit\Gameplay" GUID="{53123C37-35CA-4F42-BEBD-18A2EEB7D6BA}">
+					<Switches>
+						<Switch Id="898652363" Name="UpgradeShop" ObjectPath="\Switches\Default Work Unit\Gameplay\UpgradeShop" GUID="{221AFD79-4F15-471A-9E86-B141FD1B8BFC}"/>
+						<Switch Id="2607556080" Name="Menu" ObjectPath="\Switches\Default Work Unit\Gameplay\Menu" GUID="{90DD00EB-CEB5-418F-810D-EA8774EB287B}"/>
+						<Switch Id="2782712965" Name="Level" ObjectPath="\Switches\Default Work Unit\Gameplay\Level" GUID="{473A6D7F-4E0E-4FAB-9B50-E9FA3DED1C0F}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="3296263334" Type="User" GUID="{3071DE49-0F76-4705-AA86-80E74EBC2DCB}" Language="SFX" Hash="{73AA50FA-6536-E1F3-5FF6-3D3CBF79E863}">
 			<ObjectPath>\SoundBanks\Default Work Unit\RatKing\AttacksBank</ObjectPath>
@@ -473,5 +595,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2C1EF140-094C-4ACE-8785-166893470590}</FileHash>
+	<FileHash>{B7DDA568-5DFC-16B1-3505-DFAC029F2381}</FileHash>
 </SoundBanksInfo>
